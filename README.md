@@ -11,7 +11,7 @@ Windows editor for custom War Thunder tank sights. Draw reticles, convert artwor
 
 **0.7.0 — pre-alpha · Windows · русский / English**
 
-Запуск: `dist-0.7.0/War Thunder Scope Maker.exe` (в ZIP — прямо из распакованной папки). Установка и подключение к интернету не нужны. Требуется Windows с .NET Framework 4.x (проверено на доступном здесь .NET Framework). Это экспериментальная версия, проверка в самом War Thunder ещё не проведена.
+Запуск: `dist-0.7.0/War Thunder Scope Maker.exe` (в ZIP — прямо из распакованной папки). Установка и подключение к интернету не нужны. Требуется Windows с .NET Framework 4.x Это экспериментальная версия, возможны ошибки.
 
 ## Что изменилось в 0.7
 
