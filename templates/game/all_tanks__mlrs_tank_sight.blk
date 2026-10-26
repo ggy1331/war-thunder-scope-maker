@@ -1,0 +1,387 @@
+// Extracted from local War Thunder config/tanksights.blk; game 2.59.0.86
+crosshairHorVertSize:p2 = 3, 2;
+rangefinderProgressBarColor1:c = 0, 255, 0, 0;
+rangefinderProgressBarColor2:c = 0, 255, 0, 0;
+rangefinderTextScale:r = 0.5;
+rangefinderVerticalOffset:r = -10.1999998;
+rangefinderHorizontalOffset:r = 50.5;
+fontSizeMult:r = 0.800000012;
+lineSizeMult:r = 2;
+drawCentralLineVert:b = no;
+drawCentralLineHorz:b = no;
+crosshairDistHorSizeMain:p2 = 0.0149999997, 0.00999999978;
+crosshairDistHorSizeAdditional:p2 = 0.00499999989, 0.00200000009;
+distanceCorrectionPos:p2 = -0.100000001, 0.0299999993;
+drawDistanceCorrection:b = yes;
+drawSightMask:b = yes;
+crosshairColor:c = 255, 10, 10, 255;
+crosshairLightColor:c = 60, 60, 240, 255;
+crosshair_distances {
+  distance:p3 = 200, 0, 0;
+  distance:p3 = 400, 4, 0;
+  distance:p3 = 600, 0, 0;
+  distance:p3 = 800, 8, 0;
+  distance:p3 = 1000, 0, 0;
+  distance:p3 = 1200, 12, 0;
+  distance:p3 = 1400, 0, 0;
+  distance:p3 = 1600, 16, 0;
+  distance:p3 = 1800, 0, 0;
+  distance:p3 = 2000, 20, 0;
+  distance:p3 = 2200, 0, 0;
+  distance:p3 = 2400, 24, 0;
+  distance:p3 = 2600, 0, 0;
+  distance:p3 = 2800, 28, 0;
+  distance:p3 = 3000, 0, 0;
+  distance:p3 = 3200, 32, 0;
+  distance:p3 = 3400, 0, 0;
+  distance:p3 = 3600, 36, 0;
+  distance:p3 = 3800, 0, 0;
+  distance:p3 = 4000, 40, 0;
+  distance:p3 = 4200, 0, 0;
+  distance:p3 = 4400, 44, 0;
+  distance:p3 = 4600, 0, 0;
+  distance:p3 = 4800, 48, 0;
+  distance:p3 = 5000, 0, 0;
+}
+crosshair_hor_ranges {
+}
+drawLines {
+  line {
+    line:p4 = 0.699999988, 0, 10, 0;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -0.699999988, 0, -10, 0;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 25, 0, 30, 0;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -25, 0, -30, 0;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 0, 0.300000012, 0, 30;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 0, -0.5, 0, -7.5;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -15.6000004, 3.5, -14.3999996, 3.5;
+    move:b = yes;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -16.2000008, 6, -13.8000002, 6;
+    move:b = yes;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -15.6000004, 8, -14.3999996, 8;
+    move:b = yes;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -16.2000008, 10, -13.8000002, 10;
+    move:b = yes;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -15.6000004, 10.6999998, -14.3999996, 10.6999998;
+    move:b = yes;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -16.2000008, 11.5, -13.8000002, 11.5;
+    move:b = yes;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -15.6000004, 12.5, -14.3999996, 12.5;
+    move:b = yes;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -16.2000008, 13.5, -13.8000002, 13.5;
+    move:b = yes;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -15.6000004, 14.6000004, -14.3999996, 14.6000004;
+    move:b = yes;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -16.2000008, 15.6999998, -13.8000002, 15.6999998;
+    move:b = yes;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -15.6000004, 16.7999992, -14.3999996, 16.7999992;
+    move:b = yes;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -16.2000008, 18, -13.8000002, 18;
+    move:b = yes;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -15.6000004, 19.2000008, -14.3999996, 19.2000008;
+    move:b = yes;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -16.2000008, 20.5, -13.8000002, 20.5;
+    move:b = yes;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -15.6000004, 21.7999992, -14.3999996, 21.7999992;
+    move:b = yes;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -16.2000008, 23.1000004, -13.8000002, 23.1000004;
+    move:b = yes;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -15.6000004, 24.5, -14.3999996, 24.5;
+    move:b = yes;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -16.2000008, 26, -13.8000002, 26;
+    move:b = yes;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -15.6000004, 27.3999996, -14.3999996, 27.3999996;
+    move:b = yes;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -16.2000008, 28.8999996, -13.8000002, 28.8999996;
+    move:b = yes;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 0.600000024, 3.5, -0.600000024, 3.5;
+    move:b = yes;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 1.20000005, 6, -1.20000005, 6;
+    move:b = yes;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 0.600000024, 8, -0.600000024, 8;
+    move:b = yes;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 1.20000005, 10, -1.20000005, 10;
+    move:b = yes;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 0.600000024, 10.6999998, -0.600000024, 10.6999998;
+    move:b = yes;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 1.20000005, 11.5, -1.20000005, 11.5;
+    move:b = yes;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 0.600000024, 12.5, -0.600000024, 12.5;
+    move:b = yes;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 1.20000005, 13.5, -1.20000005, 13.5;
+    move:b = yes;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 0.600000024, 14.6000004, -0.600000024, 14.6000004;
+    move:b = yes;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 1.20000005, 15.6999998, -1.20000005, 15.6999998;
+    move:b = yes;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 0.600000024, 16.7999992, -0.600000024, 16.7999992;
+    move:b = yes;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 1.20000005, 18, -1.20000005, 18;
+    move:b = yes;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 0.600000024, 19.2000008, -0.600000024, 19.2000008;
+    move:b = yes;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 1.20000005, 20.5, -1.20000005, 20.5;
+    move:b = yes;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 0.600000024, 21.7999992, -0.600000024, 21.7999992;
+    move:b = yes;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 1.20000005, 23.1000004, -1.20000005, 23.1000004;
+    move:b = yes;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 0.600000024, 24.5, -0.600000024, 24.5;
+    move:b = yes;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 1.20000005, 26, -1.20000005, 26;
+    move:b = yes;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 0.600000024, 27.3999996, -0.600000024, 27.3999996;
+    move:b = yes;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 1.20000005, 28.8999996, -1.20000005, 28.8999996;
+    move:b = yes;
+    thousandth:b = yes;
+  }
+}
+matchExpClass {
+  mlrs_tank_a:b = yes;
+  mlrs_tank_h:b = yes;
+}
+drawTexts {
+  text {
+    text:t = "200";
+    align:i = 0;
+    pos:p2 = -20, 3.5;
+    move:b = yes;
+    thousandth:b = yes;
+    size:r = 0.600000024;
+    highlight:b = yes;
+  }
+  text {
+    text:t = "400";
+    align:i = 0;
+    pos:p2 = -20, 6;
+    move:b = yes;
+    thousandth:b = yes;
+    size:r = 0.600000024;
+    highlight:b = yes;
+  }
+  text {
+    text:t = "600";
+    align:i = 0;
+    pos:p2 = -20, 8;
+    move:b = yes;
+    thousandth:b = yes;
+    size:r = 0.600000024;
+    highlight:b = yes;
+  }
+  text {
+    text:t = "800";
+    align:i = 0;
+    pos:p2 = -20, 10;
+    move:b = yes;
+    thousandth:b = yes;
+    size:r = 0.600000024;
+    highlight:b = yes;
+  }
+  text {
+    text:t = "1200";
+    align:i = 0;
+    pos:p2 = -20, 11.5;
+    move:b = yes;
+    thousandth:b = yes;
+    size:r = 0.600000024;
+    highlight:b = yes;
+  }
+  text {
+    text:t = "1600";
+    align:i = 0;
+    pos:p2 = -20, 13.5;
+    move:b = yes;
+    thousandth:b = yes;
+    size:r = 0.600000024;
+    highlight:b = yes;
+  }
+  text {
+    text:t = "2000";
+    align:i = 0;
+    pos:p2 = -20, 15.6999998;
+    move:b = yes;
+    thousandth:b = yes;
+    size:r = 0.600000024;
+    highlight:b = yes;
+  }
+  text {
+    text:t = "2400";
+    align:i = 0;
+    pos:p2 = -20, 18;
+    move:b = yes;
+    thousandth:b = yes;
+    size:r = 0.600000024;
+    highlight:b = yes;
+  }
+  text {
+    text:t = "2800";
+    align:i = 0;
+    pos:p2 = -20, 20.5;
+    move:b = yes;
+    thousandth:b = yes;
+    size:r = 0.600000024;
+    highlight:b = yes;
+  }
+  text {
+    text:t = "3200";
+    align:i = 0;
+    pos:p2 = -20, 23.1000004;
+    move:b = yes;
+    thousandth:b = yes;
+    size:r = 0.600000024;
+    highlight:b = yes;
+  }
+  text {
+    text:t = "3600";
+    align:i = 0;
+    pos:p2 = -20, 26;
+    move:b = yes;
+    thousandth:b = yes;
+    size:r = 0.600000024;
+    highlight:b = yes;
+  }
+  text {
+    text:t = "4000";
+    align:i = 0;
+    pos:p2 = -20, 28.8999996;
+    move:b = yes;
+    thousandth:b = yes;
+    size:r = 0.600000024;
+    highlight:b = yes;
+  }
+}

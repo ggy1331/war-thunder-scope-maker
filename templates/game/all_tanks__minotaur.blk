@@ -1,0 +1,116 @@
+// Extracted from local War Thunder config/tanksights.blk; game 2.59.0.86
+crosshairHorVertSize:p2 = 3, 2;
+rangefinderProgressBarColor1:c = 0, 255, 0, 0;
+rangefinderProgressBarColor2:c = 0, 255, 0, 0;
+rangefinderTextScale:r = 0.5;
+rangefinderVerticalOffset:r = -10.1999998;
+rangefinderHorizontalOffset:r = 50.5;
+fontSizeMult:r = 0.800000012;
+lineSizeMult:r = 2;
+drawCentralLineVert:b = no;
+drawCentralLineHorz:b = no;
+crosshairDistHorSizeMain:p2 = 0.0149999997, 0.00999999978;
+crosshairDistHorSizeAdditional:p2 = 0.00499999989, 0.00200000009;
+distanceCorrectionPos:p2 = -0.100000001, 0.0299999993;
+drawDistanceCorrection:b = yes;
+drawSightMask:b = yes;
+crosshairColor:c = 31, 239, 31, 255;
+crosshairLightColor:c = 30, 30, 255, 255;
+matchExpClass {
+  sdi_minotaur:b = yes;
+  sdi_hydra:b = yes;
+  sdi_harpy:b = yes;
+}
+crosshair_distances {
+  distance:p3 = 100, 1, 0;
+  distance:p3 = 500, 0, 0;
+  distance:p3 = 1000, 10, 0;
+  distance:p3 = 1500, 0, 0;
+  distance:p3 = 2000, 20, 0;
+  distance:p3 = 2500, 0, 0;
+  distance:p3 = 3000, 30, 0;
+  distance:p3 = 3500, 0, 0;
+  distance:p3 = 4000, 40, 0;
+  distance:p3 = 4500, 0, 0;
+  distance:p3 = 5000, 50, 0;
+  distance:p3 = 5500, 0, 0;
+  distance:p3 = 6000, 60, 0;
+}
+crosshair_hor_ranges {
+}
+drawLines {
+  line {
+    line:p4 = 0.699999988, 0, 11, 0;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -0.699999988, 0, -11, 0;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 20, 0, 25, 0;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -20, 0, -25, 0;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -30, -11, -30, -7;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -30, -11, -22, -11;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 30, 11, 30, 7;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 30, 11, 22, 11;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -30, 11, -30, 7;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -30, 11, -22, 11;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 30, -11, 30, -7;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 30, -11, 22, -11;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 0, 0.300000012, 0, 12.5;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 0, -0.5, 0, -3.5;
+    thousandth:b = yes;
+  }
+}
+drawCircles {
+  circle {
+    segment:p2 = 0, 360;
+    pos:p2 = 0, 0;
+    diameter:r = 80;
+    size:r = 2.5;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  circle {
+    segment:p2 = 0, 360;
+    pos:p2 = 0, 0;
+    diameter:r = 0.100000001;
+    size:r = 1.5;
+    move:b = no;
+    thousandth:b = yes;
+  }
+}

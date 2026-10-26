@@ -1,0 +1,332 @@
+[
+  {
+    "File": "all_tanks__short_range_sight.blk",
+    "Name": "short_range_sight",
+    "Group": "all_tanks"
+  },
+  {
+    "File": "all_tanks__us_modern_sight_with_range.blk",
+    "Name": "us_modern_sight_with_range",
+    "Group": "all_tanks"
+  },
+  {
+    "File": "all_tanks__us_modern_sight_without_range.blk",
+    "Name": "us_modern_sight_without_range",
+    "Group": "all_tanks"
+  },
+  {
+    "File": "all_tanks__sw_modern_tank_sight_without_range.blk",
+    "Name": "sw_modern_tank_sight_without_range",
+    "Group": "all_tanks"
+  },
+  {
+    "File": "all_tanks__sw_modern_tank_sight_with_range.blk",
+    "Name": "sw_modern_tank_sight_with_range",
+    "Group": "all_tanks"
+  },
+  {
+    "File": "all_tanks__sw_ifv_sight_without_range.blk",
+    "Name": "sw_ifv_sight_without_range",
+    "Group": "all_tanks"
+  },
+  {
+    "File": "all_tanks__sw_ifv_sight_with_range.blk",
+    "Name": "sw_ifv_sight_with_range",
+    "Group": "all_tanks"
+  },
+  {
+    "File": "all_tanks__ussr_modern_sight_with_range.blk",
+    "Name": "ussr_modern_sight_with_range",
+    "Group": "all_tanks"
+  },
+  {
+    "File": "all_tanks__ussr_sosna_u_sight.blk",
+    "Name": "ussr_sosna_u_sight",
+    "Group": "all_tanks"
+  },
+  {
+    "File": "all_tanks__ussr_2s38_sight.blk",
+    "Name": "ussr_2s38_sight",
+    "Group": "all_tanks"
+  },
+  {
+    "File": "all_tanks__cross_sight_without_range.blk",
+    "Name": "cross_sight_without_range",
+    "Group": "all_tanks"
+  },
+  {
+    "File": "all_tanks__cross_sight_with_range.blk",
+    "Name": "cross_sight_with_range",
+    "Group": "all_tanks"
+  },
+  {
+    "File": "all_tanks__cn_triangulation.blk",
+    "Name": "cn_triangulation",
+    "Group": "all_tanks"
+  },
+  {
+    "File": "all_tanks__cn_ring.blk",
+    "Name": "cn_ring",
+    "Group": "all_tanks"
+  },
+  {
+    "File": "all_tanks__leclerc_v1.blk",
+    "Name": "leclerc_v1",
+    "Group": "all_tanks"
+  },
+  {
+    "File": "all_tanks__leclerc_v1_range.blk",
+    "Name": "leclerc_v1_range",
+    "Group": "all_tanks"
+  },
+  {
+    "File": "all_tanks__leclerc_thermal.blk",
+    "Name": "leclerc_thermal",
+    "Group": "all_tanks"
+  },
+  {
+    "File": "all_tanks__challenger2.blk",
+    "Name": "challenger2",
+    "Group": "all_tanks"
+  },
+  {
+    "File": "all_tanks__merkava_v1.blk",
+    "Name": "merkava_v1",
+    "Group": "all_tanks"
+  },
+  {
+    "File": "all_tanks__merkava_v2.blk",
+    "Name": "merkava_v2",
+    "Group": "all_tanks"
+  },
+  {
+    "File": "all_tanks__ariete.blk",
+    "Name": "ariete",
+    "Group": "all_tanks"
+  },
+  {
+    "File": "all_tanks__ariete_range.blk",
+    "Name": "ariete_range",
+    "Group": "all_tanks"
+  },
+  {
+    "File": "all_tanks__atgm_sight.blk",
+    "Name": "atgm_sight",
+    "Group": "all_tanks"
+  },
+  {
+    "File": "all_tanks__spaa_sight.blk",
+    "Name": "spaa_sight",
+    "Group": "all_tanks"
+  },
+  {
+    "File": "all_tanks__ussr_spaa_sight.blk",
+    "Name": "ussr_spaa_sight",
+    "Group": "all_tanks"
+  },
+  {
+    "File": "all_tanks__sam_sight_cross.blk",
+    "Name": "sam_sight_cross",
+    "Group": "all_tanks"
+  },
+  {
+    "File": "all_tanks__sam_sight_circle.blk",
+    "Name": "sam_sight_circle",
+    "Group": "all_tanks"
+  },
+  {
+    "File": "all_tanks__test_crosshair.blk",
+    "Name": "test_crosshair",
+    "Group": "all_tanks"
+  },
+  {
+    "File": "all_tanks__it_san_giorgio_x4.blk",
+    "Name": "it_san_giorgio_x4",
+    "Group": "all_tanks"
+  },
+  {
+    "File": "all_tanks__us_m26_t99.blk",
+    "Name": "us_m26_t99",
+    "Group": "all_tanks"
+  },
+  {
+    "File": "all_tanks__il_magach_6_rocket.blk",
+    "Name": "il_magach_6_rocket",
+    "Group": "all_tanks"
+  },
+  {
+    "File": "all_tanks__ussr_rbt_5.blk",
+    "Name": "ussr_rbt_5",
+    "Group": "all_tanks"
+  },
+  {
+    "File": "all_tanks__ussr_bm_31_12.blk",
+    "Name": "ussr_bm_31_12",
+    "Group": "all_tanks"
+  },
+  {
+    "File": "all_tanks__ussr_bm_8_24.blk",
+    "Name": "ussr_bm_8_24",
+    "Group": "all_tanks"
+  },
+  {
+    "File": "all_tanks__it_fiat_6614_firos.blk",
+    "Name": "it_fiat_6614_firos",
+    "Group": "all_tanks"
+  },
+  {
+    "File": "all_tanks__ussr_object_775.blk",
+    "Name": "ussr_object_775",
+    "Group": "all_tanks"
+  },
+  {
+    "File": "all_tanks__fr_amx_30_ACRA.blk",
+    "Name": "fr_amx_30_ACRA",
+    "Group": "all_tanks"
+  },
+  {
+    "File": "all_tanks__jp_type_75_mlrs.blk",
+    "Name": "jp_type_75_mlrs",
+    "Group": "all_tanks"
+  },
+  {
+    "File": "all_tanks__sw_landsverk_ush_405.blk",
+    "Name": "sw_landsverk_ush_405",
+    "Group": "all_tanks"
+  },
+  {
+    "File": "all_tanks__germ_panzerwerfer_42.blk",
+    "Name": "germ_panzerwerfer_42",
+    "Group": "all_tanks"
+  },
+  {
+    "File": "all_tanks__germ_sturmmorser_sturmtiger.blk",
+    "Name": "germ_sturmmorser_sturmtiger",
+    "Group": "all_tanks"
+  },
+  {
+    "File": "all_tanks__ussr_bm_13n.blk",
+    "Name": "ussr_bm_13n",
+    "Group": "all_tanks"
+  },
+  {
+    "File": "all_tanks__us_m4_sherman_calliope.blk",
+    "Name": "us_m4_sherman_calliope",
+    "Group": "all_tanks"
+  },
+  {
+    "File": "all_tanks__uk_matilda_hedgehog.blk",
+    "Name": "uk_matilda_hedgehog",
+    "Group": "all_tanks"
+  },
+  {
+    "File": "all_tanks__uk_churchill_avre.blk",
+    "Name": "uk_churchill_avre",
+    "Group": "all_tanks"
+  },
+  {
+    "File": "all_tanks__md_tgdgb_m40_lv.blk",
+    "Name": "md_tgdgb_m40_lv",
+    "Group": "all_tanks"
+  },
+  {
+    "File": "all_tanks__md_m53_59.blk",
+    "Name": "md_m53_59",
+    "Group": "all_tanks"
+  },
+  {
+    "File": "all_tanks__md_m53_59_rocket.blk",
+    "Name": "md_m53_59_rocket",
+    "Group": "all_tanks"
+  },
+  {
+    "File": "all_tanks__md_ystervark_spaa.blk",
+    "Name": "md_ystervark_spaa",
+    "Group": "all_tanks"
+  },
+  {
+    "File": "all_tanks__md_flarakrad.blk",
+    "Name": "md_flarakrad",
+    "Group": "all_tanks"
+  },
+  {
+    "File": "all_tanks__md_btr_80a.blk",
+    "Name": "md_btr_80a",
+    "Group": "all_tanks"
+  },
+  {
+    "File": "all_tanks__md_bosvark.blk",
+    "Name": "md_bosvark",
+    "Group": "all_tanks"
+  },
+  {
+    "File": "all_tanks__md_bosvark_recoiless_rifle.blk",
+    "Name": "md_bosvark_recoiless_rifle",
+    "Group": "all_tanks"
+  },
+  {
+    "File": "all_tanks__exo_at_launcher_sight.blk",
+    "Name": "exo_at_launcher_sight",
+    "Group": "all_tanks"
+  },
+  {
+    "File": "all_tanks__exo_sniper_us_launcher_sight.blk",
+    "Name": "exo_sniper_us_launcher_sight",
+    "Group": "all_tanks"
+  },
+  {
+    "File": "all_tanks__exo_sniper_ussr_launcher_sight.blk",
+    "Name": "exo_sniper_ussr_launcher_sight",
+    "Group": "all_tanks"
+  },
+  {
+    "File": "all_tanks__arachis_tanks_sight.blk",
+    "Name": "arachis_tanks_sight",
+    "Group": "all_tanks"
+  },
+  {
+    "File": "all_tanks__mlrs_tank_sight.blk",
+    "Name": "mlrs_tank_sight",
+    "Group": "all_tanks"
+  },
+  {
+    "File": "all_tanks__acoustic_tank_sight.blk",
+    "Name": "acoustic_tank_sight",
+    "Group": "all_tanks"
+  },
+  {
+    "File": "all_tanks__minotaur.blk",
+    "Name": "minotaur",
+    "Group": "all_tanks"
+  },
+  {
+    "File": "all_tanks__harpy.blk",
+    "Name": "harpy",
+    "Group": "all_tanks"
+  },
+  {
+    "File": "all_tanks__hydra.blk",
+    "Name": "hydra",
+    "Group": "all_tanks"
+  },
+  {
+    "File": "ussr_t_64a_1971__tpd_2_49.blk",
+    "Name": "tpd_2_49",
+    "Group": "ussr_t_64a_1971"
+  },
+  {
+    "File": "ussr_t_62__tsh2b_41.blk",
+    "Name": "tsh2b_41",
+    "Group": "ussr_t_62"
+  },
+  {
+    "File": "cn_t_62__tsh2b_41.blk",
+    "Name": "tsh2b_41",
+    "Group": "cn_t_62"
+  },
+  {
+    "File": "il_tiran_6__tsh2b_41.blk",
+    "Name": "tsh2b_41",
+    "Group": "il_tiran_6"
+  }
+]

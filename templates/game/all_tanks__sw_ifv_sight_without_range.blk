@@ -1,0 +1,736 @@
+// Extracted from local War Thunder config/tanksights.blk; game 2.59.0.86
+crosshairHorVertSize:p2 = 3, 2;
+rangefinderProgressBarColor1:c = 0, 255, 0, 64;
+rangefinderProgressBarColor2:c = 255, 255, 255, 64;
+rangefinderTextScale:r = 0.699999988;
+rangefinderUseThousandth:b = yes;
+rangefinderVerticalOffset:r = -37.5;
+rangefinderHorizontalOffset:r = -330;
+detectAllyTextScale:r = 0.699999988;
+detectAllyOffset:p2 = 150, -0.344900012;
+fontSizeMult:r = 1;
+lineSizeMult:r = 2;
+drawCentralLineVert:b = no;
+drawCentralLineHorz:b = no;
+drawSightMask:b = yes;
+useSmoothEdge:b = yes;
+crosshairColor:c = 0, 0, 0, 0;
+crosshairLightColor:c = 180, 255, 180, 255;
+crosshairDistHorSizeMain:p2 = 0.0299999993, 0.0199999996;
+crosshairDistHorSizeAdditional:p2 = 0.00499999989, 0.00300000003;
+distanceCorrectionPos:p2 = -0.25999999, -0.0500000007;
+drawDistanceCorrection:b = yes;
+matchExpClass {
+  exp_heavy_tank:b = yes;
+  exp_tank:b = yes;
+  exp_tank_destroyer:b = yes;
+  exp_SPAA:b = yes;
+}
+crosshair_distances {
+}
+crosshair_hor_ranges {
+}
+drawCircles {
+  circle {
+    segment:p2 = 0, 360;
+    pos:p2 = 0, 0;
+    diameter:r = 0.699999988;
+    size:r = 6;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  circle {
+    segment:p2 = 200, 340;
+    pos:p2 = -0.150000006, 9.69999981;
+    diameter:r = 0.899999976;
+    size:r = 7;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  circle {
+    segment:p2 = 20, 160;
+    pos:p2 = 0.150000006, 9.69999981;
+    diameter:r = 0.899999976;
+    size:r = 7;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  circle {
+    segment:p2 = 200, 340;
+    pos:p2 = -0.150000006, 15.6999998;
+    diameter:r = 0.899999976;
+    size:r = 7;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  circle {
+    segment:p2 = 20, 160;
+    pos:p2 = 0.150000006, 15.6999998;
+    diameter:r = 0.899999976;
+    size:r = 7;
+    move:b = no;
+    thousandth:b = yes;
+  }
+}
+drawLines {
+  line {
+    line:p4 = 74.8000031, 0.400000006, 74.8000031, -0.400000006;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 68, 0.600000024, 68, -0.600000024;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 61.2000008, 0.400000006, 61.2000008, -0.400000006;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 54.4000015, 0.600000024, 54.4000015, -0.600000024;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 47.5999985, 0.400000006, 47.5999985, -0.400000006;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 40.7999992, 0.600000024, 40.7999992, -0.600000024;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 34, 0.400000006, 34, -0.400000006;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 27.2000008, 0.600000024, 27.2000008, -0.600000024;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 20.3999996, 0.400000006, 20.3999996, -0.400000006;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 13.6000004, 0.600000024, 13.6000004, -0.600000024;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 6.80000019, 0.400000006, 6.80000019, -0.400000006;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -74.8000031, 0.400000006, -74.8000031, -0.400000006;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -68, 0.600000024, -68, -0.600000024;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -61.2000008, 0.400000006, -61.2000008, -0.400000006;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -54.4000015, 0.600000024, -54.4000015, -0.600000024;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -47.5999985, 0.400000006, -47.5999985, -0.400000006;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -40.7999992, 0.600000024, -40.7999992, -0.600000024;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -34, 0.400000006, -34, -0.400000006;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -27.2000008, 0.600000024, -27.2000008, -0.600000024;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -20.3999996, 0.400000006, -20.3999996, -0.400000006;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -13.6000004, 0.600000024, -13.6000004, -0.600000024;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -6.80000019, 0.400000006, -6.80000019, -0.400000006;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 0.600000024, -40.7999992, -0.600000024, -40.7999992;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 0.400000006, -34, -0.400000006, -34;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 0.600000024, -27.2000008, -0.600000024, -27.2000008;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 0.400000006, -20.3999996, -0.400000006, -20.3999996;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 0.600000024, -13.6000004, -0.600000024, -13.6000004;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 0.400000006, -6.80000019, -0.400000006, -6.80000019;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 1.60000002, 0.899999976, 1.60000002, 2.70000005;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 0.400000006, 2.70000005, 1.60000002, 2.70000005;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -1.60000002, 0.899999976, -1.60000002, 2.70000005;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -0.400000006, 2.70000005, -1.60000002, 2.70000005;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -6, 5.75, -6.69999981, 5;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -5.38000011, 6.5, -6, 5.75;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -5.38000011, 6.5, -4.8499999, 7.25;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -4.8499999, 7.25, -4.44999981, 8;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -4.44999981, 8, -3.79999995, 9.5;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -3.79999995, 9.5, -3.29999995, 11;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -3.29999995, 11, -2.77999997, 13;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -2.77999997, 13, -2.4000001, 15;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -2.4000001, 15, -1.89999998, 19;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -6.69999981, 5, -6.30000019, 5;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -2.9000001, 11, -3.29999995, 11;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -1.89999998, 19, -1.5, 19;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 6, 5.75, 6.69999981, 5;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 5.38000011, 6.5, 6, 5.75;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 5.38000011, 6.5, 4.8499999, 7.25;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 4.8499999, 7.25, 4.44999981, 8;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 4.44999981, 8, 3.79999995, 9.5;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 3.79999995, 9.5, 3.29999995, 11;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 3.29999995, 11, 2.77999997, 13;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 2.77999997, 13, 2.4000001, 15;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 2.4000001, 15, 1.89999998, 19;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 6.69999981, 5, 6.30000019, 5;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 2.9000001, 11, 3.29999995, 11;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 1.89999998, 19, 1.5, 19;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 0, 32.4000015, 0, 33;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 4.9000001, 32.4000015, 5.0999999, 33;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 9.85000038, 32.4000015, 10.1499996, 33;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 14.8000002, 32.4000015, 15.1999998, 33;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -4.9000001, 32.4000015, -5.0999999, 33;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -9.85000038, 32.4000015, -10.1499996, 33;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -14.8000002, 32.4000015, -15.1999998, 33;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -15, 32.7000008, 15, 32.7000008;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 0, 28.3999996, 0, 29;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 6.9000001, 28.3999996, 7.0999999, 29;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 13.8000002, 28.2999992, 14.1999998, 28.8999996;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 20.6499996, 28.2000008, 21.3500004, 28.7999992;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -6.9000001, 28.3999996, -7.0999999, 29;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -13.8000002, 28.2999992, -14.1999998, 28.8999996;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -20.6499996, 28.2000008, -21.3500004, 28.7999992;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -10.1999998, 28.7000008, 10.1999998, 28.7000008;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 16, 28.6000004, 10.1999998, 28.6000004;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 16, 28.5, 21, 28.5;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -16, 28.6000004, -10.1999998, 28.6000004;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -16, 28.5, -21, 28.5;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 6, 6, 6.5999999, 6;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 9.60000038, 6, 10.1999998, 6;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 13.25, 6, 13.8500004, 6;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 16.9500008, 6, 17.5499992, 6;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 20.7000008, 6, 21.2999992, 6;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 6.9000001, 10.1999998, 7.5, 10.1999998;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 10.6000004, 10.1999998, 11.1999998, 10.1999998;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 14.3500004, 10.1999998, 14.9499998, 10.1999998;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 18.1000004, 10.1999998, 18.7000008, 10.1999998;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 22.1499996, 10.1999998, 22.75, 10.1999998;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 7.9000001, 15.3000002, 8.5, 15.3000002;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 11.8000002, 15.3000002, 12.3999996, 15.3000002;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 15.8000002, 15.3000002, 16.3999996, 15.3000002;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 19.8999996, 15.3000002, 20.5, 15.3000002;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 24.1000004, 15.3000002, 24.7000008, 15.3000002;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -6, 6, -6.5999999, 6;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -9.60000038, 6, -10.1999998, 6;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -13.25, 6, -13.8500004, 6;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -16.9500008, 6, -17.5499992, 6;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -20.7000008, 6, -21.2999992, 6;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -6.9000001, 10.1999998, -7.5, 10.1999998;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -10.6000004, 10.1999998, -11.1999998, 10.1999998;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -14.3500004, 10.1999998, -14.9499998, 10.1999998;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -18.1000004, 10.1999998, -18.7000008, 10.1999998;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -22.1499996, 10.1999998, -22.75, 10.1999998;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -7.9000001, 15.3000002, -8.5, 15.3000002;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -11.8000002, 15.3000002, -12.3999996, 15.3000002;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -15.8000002, 15.3000002, -16.3999996, 15.3000002;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -19.8999996, 15.3000002, -20.5, 15.3000002;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -24.1000004, 15.3000002, -24.7000008, 15.3000002;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -0.25, 4.30000019, 0.25, 4.30000019;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -0, 4.19999981, 0, 3.5999999;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -0.25, 5.30000019, 0.25, 5.30000019;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -0, 5.30000019, -0, 4.69999981;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -0.25, 6.4000001, 0.25, 6.4000001;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -0, 6.4000001, -0, 5.80000019;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -0.25, 7.5, 0.25, 7.5;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 0, 7.5, 0, 6.9000001;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -0.25, 8.60000038, 0.25, 8.60000038;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 0, 8.60000038, 0, 8;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -0.25, 11.1999998, 0.25, 11.1999998;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 0, 11.1999998, 0, 10.6999998;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -0.25, 12.3000002, 0.25, 12.3000002;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 0, 12.3000002, 0, 11.6999998;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -0.25, 13.3999996, 0.25, 13.3999996;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 0, 13.3999996, 0, 12.8000002;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -0.25, 14.5, 0.25, 14.5;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 0, 14.5, 0, 13.8999996;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -0.25, 17.2000008, 0.25, 17.2000008;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 0, 17.2000008, 0, 16.6000004;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -0.25, 18.2999992, 0.25, 18.2999992;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 0, 18.2999992, 0, 17.7000008;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -0.25, 19.3999996, 0.25, 19.3999996;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 0, 19.3999996, 0, 18.7999992;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -0.25, 20.5, 0.25, 20.5;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 0, 20.5, 0, 19.8999996;
+    move:b = no;
+    thousandth:b = yes;
+  }
+}

@@ -1,0 +1,80 @@
+// Extracted from local War Thunder config/tanksights.blk; game 2.59.0.86
+crosshairHorVertSize:p2 = 3, 2;
+rangefinderProgressBarColor1:c = 0, 255, 0, 0;
+rangefinderProgressBarColor2:c = 0, 255, 0, 0;
+rangefinderTextScale:r = 0.5;
+rangefinderVerticalOffset:r = -10.1999998;
+rangefinderHorizontalOffset:r = 50.5;
+fontSizeMult:r = 0.800000012;
+lineSizeMult:r = 2;
+drawCentralLineVert:b = no;
+drawCentralLineHorz:b = no;
+crosshairDistHorSizeMain:p2 = 0.0149999997, 0.00999999978;
+crosshairDistHorSizeAdditional:p2 = 0.00499999989, 0.00200000009;
+distanceCorrectionPos:p2 = -0.100000001, 0.0299999993;
+drawDistanceCorrection:b = yes;
+drawSightMask:b = yes;
+crosshairColor:c = 255, 10, 10, 255;
+crosshairLightColor:c = 60, 60, 240, 255;
+matchExpClass {
+  combat_tank_a:b = yes;
+  combat_tank_h:b = yes;
+  combat_track_a:b = yes;
+  combat_track_h:b = yes;
+  destroyer_heavy_tank_h:b = yes;
+}
+crosshair_distances {
+  distance:p3 = 200, 0, 0;
+  distance:p3 = 400, 4, 0;
+  distance:p3 = 600, 0, 0;
+  distance:p3 = 800, 8, 0;
+  distance:p3 = 1000, 0, 0;
+  distance:p3 = 1200, 12, 0;
+  distance:p3 = 1400, 0, 0;
+  distance:p3 = 1600, 16, 0;
+  distance:p3 = 1800, 0, 0;
+  distance:p3 = 2000, 20, 0;
+  distance:p3 = 2200, 0, 0;
+  distance:p3 = 2400, 24, 0;
+  distance:p3 = 2600, 0, 0;
+  distance:p3 = 2800, 28, 0;
+  distance:p3 = 3000, 0, 0;
+  distance:p3 = 3200, 32, 0;
+  distance:p3 = 3400, 0, 0;
+  distance:p3 = 3600, 36, 0;
+  distance:p3 = 3800, 0, 0;
+  distance:p3 = 4000, 40, 0;
+  distance:p3 = 4200, 0, 0;
+  distance:p3 = 4400, 44, 0;
+  distance:p3 = 4600, 0, 0;
+  distance:p3 = 4800, 48, 0;
+  distance:p3 = 5000, 0, 0;
+}
+crosshair_hor_ranges {
+}
+drawLines {
+  line {
+    line:p4 = 0.699999988, 0, 10, 0;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -0.699999988, 0, -10, 0;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 20, 0, 25, 0;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -20, 0, -25, 0;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 0, 0.300000012, 0, 15.5;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 0, -0.5, 0, -7.5;
+    thousandth:b = yes;
+  }
+}

@@ -1,0 +1,189 @@
+// Extracted from local War Thunder config/tanksights.blk; game 2.59.0.86
+crosshairHorVertSize:p2 = 3, 2;
+rangefinderProgressBarColor1:c = 0, 255, 0, 64;
+rangefinderProgressBarColor2:c = 255, 255, 255, 64;
+rangefinderTextScale:r = 0.699999988;
+rangefinderUseThousandth:b = no;
+rangefinderVerticalOffset:r = 0.100000001;
+rangefinderHorizontalOffset:r = 5;
+detectAllyTextScale:r = 0.699999988;
+detectAllyOffset:p2 = 4, 0.0500000007;
+fontSizeMult:r = 1;
+lineSizeMult:r = 1;
+drawCentralLineVert:b = yes;
+drawCentralLineHorz:b = yes;
+drawSightMask:b = yes;
+crosshairDistHorSizeMain:p2 = 0.0299999993, 0.0199999996;
+crosshairDistHorSizeAdditional:p2 = 0.00499999989, 0.00300000003;
+distanceCorrectionPos:p2 = -0.200000003, -0.0500000007;
+drawDistanceCorrection:b = yes;
+matchExpClass {
+  sw_landsverk_ush_405:b = yes;
+  germ_spz_oerlikon_raketenautomat:b = yes;
+}
+crosshair_distances {
+  distance:p3 = 200, 0, 0;
+  distance:p3 = 400, 4, 0;
+  distance:p3 = 600, 0, 0;
+  distance:p3 = 800, 8, 0;
+  distance:p3 = 1000, 0, 0;
+  distance:p3 = 1200, 12, 0;
+  distance:p3 = 1400, 0, 0;
+  distance:p3 = 1600, 16, 0;
+  distance:p3 = 1800, 0, 0;
+  distance:p3 = 2000, 20, 0;
+  distance:p3 = 2200, 0, 0;
+  distance:p3 = 2400, 24, 0;
+  distance:p3 = 2600, 0, 0;
+  distance:p3 = 2800, 28, 0;
+  distance:p3 = 3000, 0, 0;
+  distance:p3 = 3200, 32, 0;
+  distance:p3 = 3400, 0, 0;
+  distance:p3 = 3600, 36, 0;
+  distance:p3 = 3800, 0, 0;
+  distance:p3 = 4000, 40, 0;
+}
+crosshair_hor_ranges {
+  range:p2 = -32, 32;
+  range:p2 = -28, 0;
+  range:p2 = -24, 24;
+  range:p2 = -20, 0;
+  range:p2 = -16, 16;
+  range:p2 = -12, 0;
+  range:p2 = -8, 8;
+  range:p2 = -4, 0;
+  range:p2 = 4, 0;
+  range:p2 = 8, 8;
+  range:p2 = 12, 0;
+  range:p2 = 16, 16;
+  range:p2 = 20, 0;
+  range:p2 = 24, 24;
+  range:p2 = 28, 0;
+  range:p2 = 32, 32;
+}
+drawLines {
+  line {
+    line:p4 = 0.800000012, 2.70000005, -0.800000012, 2.70000005;
+    move:b = yes;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 1.60000002, 4.21999979, -1.60000002, 4.21999979;
+    move:b = yes;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 0.800000012, 5.26999998, -0.800000012, 5.26999998;
+    move:b = yes;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 1.60000002, 6.07999992, -1.60000002, 6.07999992;
+    move:b = yes;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 0.800000012, 7.05999994, -0.800000012, 7.05999994;
+    move:b = yes;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 1.60000002, 8.10999966, -1.60000002, 8.10999966;
+    move:b = yes;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 0.800000012, 9.06900024, -0.800000012, 9.06900024;
+    move:b = yes;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 1.60000002, 10.2349997, -1.60000002, 10.2349997;
+    move:b = yes;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 0.800000012, 11.3830004, -0.800000012, 11.3830004;
+    move:b = yes;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 1.60000002, 12.7510004, -1.60000002, 12.7510004;
+    move:b = yes;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 0.800000012, 13.8999996, -0.800000012, 13.8999996;
+    move:b = yes;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 1.60000002, 15.3690004, -1.60000002, 15.3690004;
+    move:b = yes;
+    thousandth:b = yes;
+  }
+}
+drawTexts {
+  text {
+    text:t = "PL-3";
+    pos:p2 = 20, 8.69999981;
+    move:b = no;
+    thousandth:b = yes;
+    size:r = 0.699999988;
+    highlight:b = yes;
+  }
+  text {
+    text:t = "400";
+    align:i = 0;
+    pos:p2 = 10, 4.21999979;
+    move:b = yes;
+    thousandth:b = yes;
+    size:r = 0.300000012;
+    highlight:b = yes;
+  }
+  text {
+    text:t = "800";
+    align:i = 0;
+    pos:p2 = 10, 6.07999992;
+    move:b = yes;
+    thousandth:b = yes;
+    size:r = 0.300000012;
+    highlight:b = yes;
+  }
+  text {
+    text:t = "1200";
+    align:i = 0;
+    pos:p2 = 10, 8.10999966;
+    move:b = yes;
+    thousandth:b = yes;
+    size:r = 0.300000012;
+    highlight:b = yes;
+  }
+  text {
+    text:t = "1600";
+    align:i = 0;
+    pos:p2 = 10, 10.2349997;
+    move:b = yes;
+    thousandth:b = yes;
+    size:r = 0.300000012;
+    highlight:b = yes;
+  }
+  text {
+    text:t = "2000";
+    align:i = 0;
+    pos:p2 = 10, 12.7510004;
+    move:b = yes;
+    thousandth:b = yes;
+    size:r = 0.300000012;
+    highlight:b = yes;
+  }
+  text {
+    text:t = "2400";
+    align:i = 0;
+    pos:p2 = 10, 15.3690004;
+    move:b = yes;
+    thousandth:b = yes;
+    size:r = 0.300000012;
+    highlight:b = yes;
+  }
+}

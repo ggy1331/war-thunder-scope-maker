@@ -1,0 +1,356 @@
+// Extracted from local War Thunder config/tanksights.blk; game 2.59.0.86
+crosshairHorVertSize:p2 = 3, 2;
+rangefinderProgressBarColor1:c = 0, 255, 0, 64;
+rangefinderProgressBarColor2:c = 255, 255, 255, 64;
+rangefinderTextScale:r = 0.699999988;
+rangefinderUseThousandth:b = no;
+rangefinderVerticalOffset:r = 0.100000001;
+rangefinderHorizontalOffset:r = 5;
+detectAllyTextScale:r = 0.699999988;
+detectAllyOffset:p2 = 4, 0.0500000007;
+fontSizeMult:r = 1;
+lineSizeMult:r = 1;
+drawCentralLineVert:b = yes;
+drawCentralLineHorz:b = yes;
+drawSightMask:b = yes;
+crosshairColor:c = 0, 0, 0, 0;
+crosshairLightColor:c = 0, 0, 0, 0;
+crosshairDistHorSizeMain:p2 = 0.0299999993, 0.0199999996;
+crosshairDistHorSizeAdditional:p2 = 0.00499999989, 0.00300000003;
+distanceCorrectionPos:p2 = -0.25999999, -0.0500000007;
+drawDistanceCorrection:b = yes;
+matchExpClass {
+  uk_churchill_avre:b = yes;
+}
+crosshair_distances {
+  distance:p3 = 200, 0, 0;
+  distance:p3 = 400, 4, 0;
+  distance:p3 = 600, 0, 0;
+  distance:p3 = 800, 8, 0;
+  distance:p3 = 1000, 0, 0;
+  distance:p3 = 1200, 12, 0;
+  distance:p3 = 1400, 0, 0;
+  distance:p3 = 1600, 16, 0;
+  distance:p3 = 1800, 0, 0;
+  distance:p3 = 2000, 20, 0;
+  distance:p3 = 2200, 0, 0;
+  distance:p3 = 2400, 24, 0;
+  distance:p3 = 2600, 0, 0;
+  distance:p3 = 2800, 28, 0;
+  distance:p3 = 3000, 0, 0;
+  distance:p3 = 3200, 32, 0;
+  distance:p3 = 3400, 0, 0;
+  distance:p3 = 3600, 36, 0;
+  distance:p3 = 3800, 0, 0;
+  distance:p3 = 4000, 40, 0;
+}
+crosshair_hor_ranges {
+  range:p2 = -32, 32;
+  range:p2 = -28, 0;
+  range:p2 = -24, 24;
+  range:p2 = -20, 0;
+  range:p2 = -16, 16;
+  range:p2 = -12, 0;
+  range:p2 = -8, 8;
+  range:p2 = -4, 0;
+  range:p2 = 4, 0;
+  range:p2 = 8, 8;
+  range:p2 = 12, 0;
+  range:p2 = 16, 16;
+  range:p2 = 20, 0;
+  range:p2 = 24, 24;
+  range:p2 = 28, 0;
+  range:p2 = 32, 32;
+}
+drawLines {
+  line {
+    line:p4 = 1.70000005, 26.1152992, -1.70000005, 26.1152992;
+    move:b = yes;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 1.70000005, 45.0999985, -1.70000005, 45.0999985;
+    move:b = yes;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 1.70000005, 64.191597, -1.70000005, 64.191597;
+    move:b = yes;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 1.70000005, 83.2368011, -1.70000005, 83.2368011;
+    move:b = yes;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 1.70000005, 102.363998, -1.70000005, 102.363998;
+    move:b = yes;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 1.70000005, 121.681999, -1.70000005, 121.681999;
+    move:b = yes;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 1.70000005, 141.335007, -1.70000005, 141.335007;
+    move:b = yes;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 1.70000005, 161.434998, -1.70000005, 161.434998;
+    move:b = yes;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 1.70000005, 182.139008, -1.70000005, 182.139008;
+    move:b = yes;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 1.70000005, 203.598999, -1.70000005, 203.598999;
+    move:b = yes;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 1.70000005, 225.970993, -1.70000005, 225.970993;
+    move:b = yes;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 1.70000005, 249.438004, -1.70000005, 249.438004;
+    move:b = yes;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 1.70000005, 274.195007, -1.70000005, 274.195007;
+    move:b = yes;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 1.70000005, 300.490997, -1.70000005, 300.490997;
+    move:b = yes;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 1.70000005, 329.118988, -1.70000005, 329.118988;
+    move:b = yes;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 1.70000005, 359.746002, -1.70000005, 359.746002;
+    move:b = yes;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 1.70000005, 393.299988, -1.70000005, 393.299988;
+    move:b = yes;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 1.70000005, 430.699005, -1.70000005, 430.699005;
+    move:b = yes;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 1.70000005, 474.412994, -1.70000005, 474.412994;
+    move:b = yes;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 1.70000005, 526.46698, -1.70000005, 526.46698;
+    move:b = yes;
+    thousandth:b = yes;
+  }
+}
+drawTexts {
+  text {
+    text:t = "Bomb demolition №1";
+    pos:p2 = 10, 4.5;
+    move:b = no;
+    thousandth:b = yes;
+    size:r = 0.699999988;
+    highlight:b = yes;
+  }
+  text {
+    text:t = "10";
+    align:i = 0;
+    pos:p2 = 10, 26.1152992;
+    move:b = yes;
+    thousandth:b = yes;
+    size:r = 0.699999988;
+    highlight:b = yes;
+  }
+  text {
+    text:t = "20";
+    align:i = 0;
+    pos:p2 = 10, 45.0999985;
+    move:b = yes;
+    thousandth:b = yes;
+    size:r = 0.699999988;
+    highlight:b = yes;
+  }
+  text {
+    text:t = "30";
+    align:i = 0;
+    pos:p2 = 10, 64.191597;
+    move:b = yes;
+    thousandth:b = yes;
+    size:r = 0.699999988;
+    highlight:b = yes;
+  }
+  text {
+    text:t = "40";
+    align:i = 0;
+    pos:p2 = 10, 83.2368011;
+    move:b = yes;
+    thousandth:b = yes;
+    size:r = 0.699999988;
+    highlight:b = yes;
+  }
+  text {
+    text:t = "50";
+    align:i = 0;
+    pos:p2 = 10, 102.363998;
+    move:b = yes;
+    thousandth:b = yes;
+    size:r = 0.699999988;
+    highlight:b = yes;
+  }
+  text {
+    text:t = "60";
+    align:i = 0;
+    pos:p2 = 10, 121.681999;
+    move:b = yes;
+    thousandth:b = yes;
+    size:r = 0.699999988;
+    highlight:b = yes;
+  }
+  text {
+    text:t = "70";
+    align:i = 0;
+    pos:p2 = 10, 141.335007;
+    move:b = yes;
+    thousandth:b = yes;
+    size:r = 0.699999988;
+    highlight:b = yes;
+  }
+  text {
+    text:t = "80";
+    align:i = 0;
+    pos:p2 = 10, 161.434998;
+    move:b = yes;
+    thousandth:b = yes;
+    size:r = 0.699999988;
+    highlight:b = yes;
+  }
+  text {
+    text:t = "90";
+    align:i = 0;
+    pos:p2 = 10, 182.139008;
+    move:b = yes;
+    thousandth:b = yes;
+    size:r = 0.699999988;
+    highlight:b = yes;
+  }
+  text {
+    text:t = "100";
+    align:i = 0;
+    pos:p2 = 10, 203.598999;
+    move:b = yes;
+    thousandth:b = yes;
+    size:r = 0.699999988;
+    highlight:b = yes;
+  }
+  text {
+    text:t = "110";
+    align:i = 0;
+    pos:p2 = 10, 225.970993;
+    move:b = yes;
+    thousandth:b = yes;
+    size:r = 0.699999988;
+    highlight:b = yes;
+  }
+  text {
+    text:t = "120";
+    align:i = 0;
+    pos:p2 = 10, 249.438004;
+    move:b = yes;
+    thousandth:b = yes;
+    size:r = 0.699999988;
+    highlight:b = yes;
+  }
+  text {
+    text:t = "130";
+    align:i = 0;
+    pos:p2 = 10, 274.195007;
+    move:b = yes;
+    thousandth:b = yes;
+    size:r = 0.699999988;
+    highlight:b = yes;
+  }
+  text {
+    text:t = "140";
+    align:i = 0;
+    pos:p2 = 10, 300.490997;
+    move:b = yes;
+    thousandth:b = yes;
+    size:r = 0.699999988;
+    highlight:b = yes;
+  }
+  text {
+    text:t = "150";
+    align:i = 0;
+    pos:p2 = 10, 329.118988;
+    move:b = yes;
+    thousandth:b = yes;
+    size:r = 0.699999988;
+    highlight:b = yes;
+  }
+  text {
+    text:t = "160";
+    align:i = 0;
+    pos:p2 = 10, 359.746002;
+    move:b = yes;
+    thousandth:b = yes;
+    size:r = 0.699999988;
+    highlight:b = yes;
+  }
+  text {
+    text:t = "170";
+    align:i = 0;
+    pos:p2 = 10, 393.299988;
+    move:b = yes;
+    thousandth:b = yes;
+    size:r = 0.699999988;
+    highlight:b = yes;
+  }
+  text {
+    text:t = "180";
+    align:i = 0;
+    pos:p2 = 10, 430.699005;
+    move:b = yes;
+    thousandth:b = yes;
+    size:r = 0.699999988;
+    highlight:b = yes;
+  }
+  text {
+    text:t = "190";
+    align:i = 0;
+    pos:p2 = 10, 474.412994;
+    move:b = yes;
+    thousandth:b = yes;
+    size:r = 0.699999988;
+    highlight:b = yes;
+  }
+  text {
+    text:t = "200";
+    align:i = 0;
+    pos:p2 = 10, 526.46698;
+    move:b = yes;
+    thousandth:b = yes;
+    size:r = 0.699999988;
+    highlight:b = yes;
+  }
+}

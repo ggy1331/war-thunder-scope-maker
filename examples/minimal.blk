@@ -1,0 +1,20 @@
+// War Thunder Scope Maker — minimal starter
+matchExpClass {
+  exp_tank:b = yes
+  exp_heavy_tank:b = yes
+  exp_tank_destroyer:b = yes
+  exp_SPAA:b = yes
+}
+drawCentralLineVert:b = no
+drawCentralLineHorz:b = no
+drawDistanceCorrection:b = no
+crosshairColor:c = 92, 245, 156, 255
+lineSizeMult:r = 1.5
+crosshair_distances {}
+crosshair_hor_ranges {}
+drawLines {
+  line { line:p4 = -0.55, 0, -0.025, 0; move:b = no; }
+  line { line:p4 = 0.025, 0, 0.55, 0; move:b = no; }
+  line { line:p4 = 0, -0.55, 0, -0.025; move:b = no; }
+  line { line:p4 = 0, 0.025, 0, 0.55; move:b = no; }
+}

@@ -1,0 +1,53 @@
+// Extracted from local War Thunder config/tanksights.blk; game 2.59.0.86
+thousandth:t = "real";
+fontSizeMult:r = 1;
+lineSizeMult:r = 1;
+applyCorrectionToGun:b = yes;
+drawCentralLineVert:b = no;
+drawCentralLineHorz:b = no;
+rangefinderHorizontalOffset:r = -154;
+rangefinderVerticalOffset:r = -36;
+rangefinderProgressBarColor1:c = 0, 255, 0, 0;
+rangefinderProgressBarColor2:c = 0, 0, 0, 0;
+rangefinderTextScale:r = 1.10000002;
+crosshairDistHorSizeMain:p2 = 1, 0;
+textPos:p2 = 0, 0;
+textAlign:i = 0;
+textShift:r = 0.200000003;
+drawAdditionalLines:b = yes;
+crosshairDistHorSizeAdditional:p2 = 0.00499999989, 0.00300000003;
+drawDistanceCorrection:b = yes;
+distanceCorrectionPos:p2 = -0.200000003, -0.0500000007;
+matchExpClass {
+  exp_heavy_tank:b = yes;
+  exp_tank:b = yes;
+  exp_tank_destroyer:b = yes;
+  exp_SPAA:b = yes;
+}
+crosshair_hor_ranges {
+}
+crosshair_distances {
+}
+drawCircles {
+  circle {
+    thousandth:b = no;
+    segment:p2 = 0, 360;
+    pos:p2 = 0, 0;
+    diameter:r = 0.00700000022;
+    size:r = 1.5;
+  }
+  circle {
+    thousandth:b = no;
+    segment:p2 = 0, 360;
+    pos:p2 = 0, 0;
+    diameter:r = 0.224999994;
+    size:r = 2.5;
+  }
+  circle {
+    thousandth:b = no;
+    segment:p2 = 0, 360;
+    pos:p2 = 0, 0;
+    diameter:r = 9.99999975e-05;
+    size:r = 2;
+  }
+}

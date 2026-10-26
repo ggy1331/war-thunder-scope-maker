@@ -1,0 +1,236 @@
+// Extracted from local War Thunder config/tanksights.blk; game 2.59.0.86
+crosshairHorVertSize:p2 = 3, 2;
+rangefinderProgressBarColor1:c = 0, 255, 0, 64;
+rangefinderProgressBarColor2:c = 255, 255, 255, 64;
+rangefinderTextScale:r = 0.699999988;
+rangefinderUseThousandth:b = no;
+rangefinderVerticalOffset:r = 0.100000001;
+rangefinderHorizontalOffset:r = 5;
+detectAllyTextScale:r = 0.699999988;
+detectAllyOffset:p2 = 4, 0.0500000007;
+fontSizeMult:r = 1;
+lineSizeMult:r = 1.5;
+drawCentralLineVert:b = no;
+drawCentralLineHorz:b = no;
+drawSightMask:b = yes;
+useSmoothEdge:b = yes;
+crosshairColor:c = 0, 0, 0, 0;
+crosshairLightColor:c = 0, 0, 0, 0;
+crosshairDistHorSizeMain:p2 = 0.0299999993, 0.0199999996;
+crosshairDistHorSizeAdditional:p2 = 0.00499999989, 0.00300000003;
+distanceCorrectionPos:p2 = -0.25999999, -0.0500000007;
+drawDistanceCorrection:b = yes;
+matchExpClass {
+  exp_heavy_tank:b = yes;
+  exp_tank:b = yes;
+  exp_tank_destroyer:b = yes;
+  exp_SPAA:b = yes;
+}
+crosshair_distances {
+}
+crosshair_hor_ranges {
+}
+drawLines {
+  line {
+    line:p4 = 0.5, 0, -0.5, 0;
+    thousandth:b = yes;
+    move:b = no;
+  }
+  line {
+    line:p4 = 0, 0.5, 0, -0.5;
+    thousandth:b = yes;
+    move:b = no;
+  }
+  line {
+    line:p4 = 200, 0, 62.5, 0;
+    thousandth:b = yes;
+    move:b = no;
+  }
+  line {
+    line:p4 = -200, 0, -62.5, 0;
+    thousandth:b = yes;
+    move:b = no;
+  }
+  line {
+    line:p4 = 0, -200, 0, -62.5;
+    thousandth:b = yes;
+    move:b = no;
+  }
+  line {
+    line:p4 = -65, -0.624981463, -67.5, -0.624981463;
+    thousandth:b = yes;
+    move:b = no;
+  }
+  line {
+    line:p4 = -70, -0.714264512, -72.5, -0.714264512;
+    thousandth:b = yes;
+    move:b = no;
+  }
+  line {
+    line:p4 = -75, -0.833308578, -77.5, -0.833308578;
+    thousandth:b = yes;
+    move:b = no;
+  }
+  line {
+    line:p4 = -80, -0.999970198, -82.5, -0.999970198;
+    thousandth:b = yes;
+    move:b = no;
+  }
+  line {
+    line:p4 = -85, -1.24996245, -87.5, -1.24996245;
+    thousandth:b = yes;
+    move:b = no;
+  }
+  line {
+    line:p4 = -90, -1.66661596, -92.5, -1.66661596;
+    thousandth:b = yes;
+    move:b = no;
+  }
+  line {
+    line:p4 = -95, -2.49992108, -97.5, -2.49992108;
+    thousandth:b = yes;
+    move:b = no;
+  }
+  line {
+    line:p4 = -100, -4.9998107, -102.5, -4.9998107;
+    thousandth:b = yes;
+    move:b = no;
+  }
+  line {
+    line:p4 = -101.25, -6, -101.25, -7;
+    thousandth:b = yes;
+    move:b = no;
+  }
+  line {
+    line:p4 = -96.25, -3.5, -96.25, -7;
+    thousandth:b = yes;
+    move:b = no;
+  }
+  line {
+    line:p4 = -91.25, -2.5, -91.25, -7;
+    thousandth:b = yes;
+    move:b = no;
+  }
+  line {
+    line:p4 = -86.25, -2.5, -86.25, -7;
+    thousandth:b = yes;
+    move:b = no;
+  }
+  line {
+    line:p4 = -81.25, -2.5, -81.25, -7;
+    thousandth:b = yes;
+    move:b = no;
+  }
+  line {
+    line:p4 = -76.25, -1, -76.25, -7;
+    thousandth:b = yes;
+    move:b = no;
+  }
+  line {
+    line:p4 = -71.25, -1, -71.25, -7;
+    thousandth:b = yes;
+    move:b = no;
+  }
+  line {
+    line:p4 = -66.25, -1, -66.25, -7;
+    thousandth:b = yes;
+    move:b = no;
+  }
+}
+drawTexts {
+  text {
+    text:t = "5";
+    align:i = 0;
+    pos:p2 = -101, -8.5;
+    move:b = no;
+    thousandth:b = yes;
+    size:r = 0.699999988;
+    highlight:b = yes;
+  }
+  text {
+    text:t = "10";
+    align:i = 0;
+    pos:p2 = -96, -8.5;
+    move:b = no;
+    thousandth:b = yes;
+    size:r = 0.699999988;
+    highlight:b = yes;
+  }
+  text {
+    text:t = "15";
+    align:i = 0;
+    pos:p2 = -91, -8.5;
+    move:b = no;
+    thousandth:b = yes;
+    size:r = 0.699999988;
+    highlight:b = yes;
+  }
+  text {
+    text:t = "20";
+    align:i = 0;
+    pos:p2 = -86, -8.5;
+    move:b = no;
+    thousandth:b = yes;
+    size:r = 0.699999988;
+    highlight:b = yes;
+  }
+  text {
+    text:t = "25";
+    align:i = 0;
+    pos:p2 = -81, -8.5;
+    move:b = no;
+    thousandth:b = yes;
+    size:r = 0.699999988;
+    highlight:b = yes;
+  }
+  text {
+    text:t = "30";
+    align:i = 0;
+    pos:p2 = -76, -8.5;
+    move:b = no;
+    thousandth:b = yes;
+    size:r = 0.699999988;
+    highlight:b = yes;
+  }
+  text {
+    text:t = "35";
+    align:i = 0;
+    pos:p2 = -71, -8.5;
+    move:b = no;
+    thousandth:b = yes;
+    size:r = 0.699999988;
+    highlight:b = yes;
+  }
+  text {
+    text:t = "40";
+    align:i = 0;
+    pos:p2 = -66, -8.5;
+    move:b = no;
+    thousandth:b = yes;
+    size:r = 0.699999988;
+    highlight:b = yes;
+  }
+}
+drawCircles {
+  circle {
+    thousandth:b = yes;
+    segment:p2 = 0, 360;
+    pos:p2 = 0, 0;
+    diameter:r = 3;
+    size:r = 2;
+  }
+  circle {
+    thousandth:b = yes;
+    segment:p2 = 0, 360;
+    pos:p2 = 0, 0;
+    diameter:r = 15;
+    size:r = 2;
+  }
+  circle {
+    thousandth:b = yes;
+    segment:p2 = 0, 360;
+    pos:p2 = 0, 0;
+    diameter:r = 125;
+    size:r = 2.5;
+  }
+}

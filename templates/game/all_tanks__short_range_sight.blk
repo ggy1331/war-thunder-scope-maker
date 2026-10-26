@@ -1,0 +1,65 @@
+// Extracted from local War Thunder config/tanksights.blk; game 2.59.0.86
+crosshairHorVertSize:p2 = 3, 2;
+rangefinderProgressBarColor1:c = 0, 255, 0, 64;
+rangefinderProgressBarColor2:c = 255, 255, 255, 64;
+rangefinderTextScale:r = 0.699999988;
+rangefinderUseThousandth:b = no;
+rangefinderVerticalOffset:r = 0.100000001;
+rangefinderHorizontalOffset:r = 5;
+detectAllyTextScale:r = 0.699999988;
+detectAllyOffset:p2 = 4, 0.0500000007;
+fontSizeMult:r = 1;
+lineSizeMult:r = 1;
+drawCentralLineVert:b = yes;
+drawCentralLineHorz:b = yes;
+drawSightMask:b = yes;
+crosshairDistHorSizeMain:p2 = 0.0299999993, 0.0199999996;
+crosshairDistHorSizeAdditional:p2 = 0.00499999989, 0.00300000003;
+distanceCorrectionPos:p2 = -0.25999999, -0.0500000007;
+drawDistanceCorrection:b = yes;
+matchExpClass {
+  exp_tank:b = yes;
+  exp_heavy_tank:b = yes;
+  exp_tank_destroyer:b = yes;
+  exp_SPAA:b = yes;
+}
+crosshair_distances {
+  distance:p3 = 200, 0, 0;
+  distance:p3 = 400, 4, 0;
+  distance:p3 = 600, 0, 0;
+  distance:p3 = 800, 8, 0;
+  distance:p3 = 1000, 0, 0;
+  distance:p3 = 1200, 12, 0;
+  distance:p3 = 1400, 0, 0;
+  distance:p3 = 1600, 16, 0;
+  distance:p3 = 1800, 0, 0;
+  distance:p3 = 2000, 20, 0;
+  distance:p3 = 2200, 0, 0;
+  distance:p3 = 2400, 24, 0;
+  distance:p3 = 2600, 0, 0;
+  distance:p3 = 2800, 28, 0;
+}
+crosshair_hor_ranges {
+  range:p2 = -32, 32;
+  range:p2 = -28, 0;
+  range:p2 = -24, 24;
+  range:p2 = -20, 0;
+  range:p2 = -16, 16;
+  range:p2 = -12, 0;
+  range:p2 = -8, 8;
+  range:p2 = -4, 0;
+  range:p2 = 4, 0;
+  range:p2 = 8, 8;
+  range:p2 = 12, 0;
+  range:p2 = 16, 16;
+  range:p2 = 20, 0;
+  range:p2 = 24, 24;
+  range:p2 = 28, 0;
+  range:p2 = 32, 32;
+}
+drawLines {
+  line {
+    line:p4 = 0, 0, 0, 0;
+    move:b = no;
+  }
+}

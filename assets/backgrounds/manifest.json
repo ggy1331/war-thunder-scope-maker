@@ -1,0 +1,178 @@
+[
+  {
+    "Key": "1_day",
+    "Scene": 1,
+    "Mode": "day",
+    "File": "tank_sight_preview_1_day.png",
+    "Thumbnail": "tank_sight_preview_1_day_thumb.png",
+    "Width": 3840,
+    "Height": 2160,
+    "Source": "ui/images/sight_menu_bg/tank_sight_preview_1_day.avif",
+    "Sha256": "1c883aa15ac718f12cf71b9381ddd5d53ff34ed395d32d9b45e47941f8a36688"
+  },
+  {
+    "Key": "1_night",
+    "Scene": 1,
+    "Mode": "night",
+    "File": "tank_sight_preview_1_night.png",
+    "Thumbnail": "tank_sight_preview_1_night_thumb.png",
+    "Width": 3840,
+    "Height": 2160,
+    "Source": "ui/images/sight_menu_bg/tank_sight_preview_1_night.avif",
+    "Sha256": "626035e91c8b2deb1d3fca8938edbb35096bba65fa4c3c2c7b219276c419552c"
+  },
+  {
+    "Key": "1_nightvision",
+    "Scene": 1,
+    "Mode": "nightvision",
+    "File": "tank_sight_preview_1_nightvision.png",
+    "Thumbnail": "tank_sight_preview_1_nightvision_thumb.png",
+    "Width": 3840,
+    "Height": 2160,
+    "Source": "ui/images/sight_menu_bg/tank_sight_preview_1_nightvision.avif",
+    "Sha256": "913434516c09026fee4a5d37bb75cd108e375e34d878409586d90ba503cb2821"
+  },
+  {
+    "Key": "1_thermal",
+    "Scene": 1,
+    "Mode": "thermal",
+    "File": "tank_sight_preview_1_thermal.png",
+    "Thumbnail": "tank_sight_preview_1_thermal_thumb.png",
+    "Width": 3840,
+    "Height": 2160,
+    "Source": "ui/images/sight_menu_bg/tank_sight_preview_1_thermal.avif",
+    "Sha256": "80ab0ab3af1fdc598765708bc575b96d00a10799b5f747822af7d72cf356877f"
+  },
+  {
+    "Key": "2_day",
+    "Scene": 2,
+    "Mode": "day",
+    "File": "tank_sight_preview_2_day.png",
+    "Thumbnail": "tank_sight_preview_2_day_thumb.png",
+    "Width": 3840,
+    "Height": 2160,
+    "Source": "ui/images/sight_menu_bg/tank_sight_preview_2_day.avif",
+    "Sha256": "0d7656ee65ffc7bbc3b559a2bf68420ce04bd8ede4d004f65c1a568d0ea24096"
+  },
+  {
+    "Key": "2_night",
+    "Scene": 2,
+    "Mode": "night",
+    "File": "tank_sight_preview_2_night.png",
+    "Thumbnail": "tank_sight_preview_2_night_thumb.png",
+    "Width": 3840,
+    "Height": 2160,
+    "Source": "ui/images/sight_menu_bg/tank_sight_preview_2_night.avif",
+    "Sha256": "f27443493494e00257c3e2b099af88f8d7ff6462abca750cc202a82dbe9caece"
+  },
+  {
+    "Key": "2_nightvision",
+    "Scene": 2,
+    "Mode": "nightvision",
+    "File": "tank_sight_preview_2_nightvision.png",
+    "Thumbnail": "tank_sight_preview_2_nightvision_thumb.png",
+    "Width": 3840,
+    "Height": 2160,
+    "Source": "ui/images/sight_menu_bg/tank_sight_preview_2_nightvision.avif",
+    "Sha256": "e736756019ef0040e45633973cba3bf742ae811d313c2ebdb2b9e4e2cf747b15"
+  },
+  {
+    "Key": "2_thermal",
+    "Scene": 2,
+    "Mode": "thermal",
+    "File": "tank_sight_preview_2_thermal.png",
+    "Thumbnail": "tank_sight_preview_2_thermal_thumb.png",
+    "Width": 3840,
+    "Height": 2160,
+    "Source": "ui/images/sight_menu_bg/tank_sight_preview_2_thermal.avif",
+    "Sha256": "6a1b2df42d9a3d7edcc2268d7a6054f9b09bb8d08dad625052aab4a113341e5c"
+  },
+  {
+    "Key": "3_day",
+    "Scene": 3,
+    "Mode": "day",
+    "File": "tank_sight_preview_3_day.png",
+    "Thumbnail": "tank_sight_preview_3_day_thumb.png",
+    "Width": 3840,
+    "Height": 2160,
+    "Source": "ui/images/sight_menu_bg/tank_sight_preview_3_day.avif",
+    "Sha256": "c2b8c08ecf4e4ac811b08871456c504f838d9b98cbe799da8beff10479f58a9d"
+  },
+  {
+    "Key": "3_night",
+    "Scene": 3,
+    "Mode": "night",
+    "File": "tank_sight_preview_3_night.png",
+    "Thumbnail": "tank_sight_preview_3_night_thumb.png",
+    "Width": 3840,
+    "Height": 2160,
+    "Source": "ui/images/sight_menu_bg/tank_sight_preview_3_night.avif",
+    "Sha256": "70bf5156645173f6f8f9c3d2d574c98699eb5e0d7f5a67f10a7171c4feaa8d3e"
+  },
+  {
+    "Key": "3_nightvision",
+    "Scene": 3,
+    "Mode": "nightvision",
+    "File": "tank_sight_preview_3_nightvision.png",
+    "Thumbnail": "tank_sight_preview_3_nightvision_thumb.png",
+    "Width": 3840,
+    "Height": 2160,
+    "Source": "ui/images/sight_menu_bg/tank_sight_preview_3_nightvision.avif",
+    "Sha256": "4f99d5a2ce8e3a179afaad7bbec3bd9f55457b6bd373711c84e7de9d3a1f3b9d"
+  },
+  {
+    "Key": "3_thermal",
+    "Scene": 3,
+    "Mode": "thermal",
+    "File": "tank_sight_preview_3_thermal.png",
+    "Thumbnail": "tank_sight_preview_3_thermal_thumb.png",
+    "Width": 3840,
+    "Height": 2160,
+    "Source": "ui/images/sight_menu_bg/tank_sight_preview_3_thermal.avif",
+    "Sha256": "82836018a9b2e78707aa268be664c3a61513e8090bda09643515466a1c8d2034"
+  },
+  {
+    "Key": "4_day",
+    "Scene": 4,
+    "Mode": "day",
+    "File": "tank_sight_preview_4_day.png",
+    "Thumbnail": "tank_sight_preview_4_day_thumb.png",
+    "Width": 3840,
+    "Height": 2160,
+    "Source": "ui/images/sight_menu_bg/tank_sight_preview_4_day.avif",
+    "Sha256": "5d75d71fcca0c5ecc95b2447b35d26e3ba4afcb7d923418cec4cf7a38d1f9633"
+  },
+  {
+    "Key": "4_night",
+    "Scene": 4,
+    "Mode": "night",
+    "File": "tank_sight_preview_4_night.png",
+    "Thumbnail": "tank_sight_preview_4_night_thumb.png",
+    "Width": 3840,
+    "Height": 2160,
+    "Source": "ui/images/sight_menu_bg/tank_sight_preview_4_night.avif",
+    "Sha256": "1a7d90fc404bb21b1a35eef83a3a8cc85786dbc14bae0b1ea95ab018a4dc673f"
+  },
+  {
+    "Key": "4_nightvision",
+    "Scene": 4,
+    "Mode": "nightvision",
+    "File": "tank_sight_preview_4_nightvision.png",
+    "Thumbnail": "tank_sight_preview_4_nightvision_thumb.png",
+    "Width": 3840,
+    "Height": 2160,
+    "Source": "ui/images/sight_menu_bg/tank_sight_preview_4_nightvision.avif",
+    "Sha256": "8bafdbbc395628fc68109fe11f8c63a954613b2b6d8957c9dab3b69cd19a6855"
+  },
+  {
+    "Key": "4_thermal",
+    "Scene": 4,
+    "Mode": "thermal",
+    "File": "tank_sight_preview_4_thermal.png",
+    "Thumbnail": "tank_sight_preview_4_thermal_thumb.png",
+    "Width": 3840,
+    "Height": 2160,
+    "Source": "ui/images/sight_menu_bg/tank_sight_preview_4_thermal.avif",
+    "Sha256": "956bbf434f34daf569104e2a77578ace4a2a82496abf26d75140c0483f338188"
+  }
+]

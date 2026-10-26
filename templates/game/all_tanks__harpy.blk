@@ -1,0 +1,191 @@
+// Extracted from local War Thunder config/tanksights.blk; game 2.59.0.86
+crosshairHorVertSize:p2 = 3, 2;
+rangefinderProgressBarColor1:c = 0, 255, 0, 0;
+rangefinderProgressBarColor2:c = 0, 255, 0, 0;
+rangefinderTextScale:r = 0.5;
+rangefinderVerticalOffset:r = -10.1999998;
+rangefinderHorizontalOffset:r = 50.5;
+fontSizeMult:r = 0.899999976;
+lineSizeMult:r = 1.5;
+drawCentralLineVert:b = no;
+drawCentralLineHorz:b = no;
+crosshairDistHorSizeMain:p2 = 0.0299999993, 0.0199999996;
+crosshairDistHorSizeAdditional:p2 = 0.00499999989, 0.00300000003;
+distanceCorrectionPos:p2 = -0.100000001, 0.0299999993;
+drawDistanceCorrection:b = yes;
+drawSightMask:b = yes;
+crosshairColor:c = 31, 239, 31, 255;
+crosshairLightColor:c = 30, 30, 255, 255;
+matchExpClass {
+  sdi_harpy:b = yes;
+}
+ballistics {
+  bullet {
+    bulletType:t = "apds_fs_long_tank";
+    speed:r = 2000;
+    drawAdditionalLines:b = no;
+    drawDistanceCorrection:b = yes;
+    distanceCorrectionPos:p2 = -0.100000001, 0.100000001;
+    distancePos:p2 = 0.109999999, 0;
+    textAlign:i = 1;
+    textPos:p2 = -0.0120000001, 0;
+    textShift:r = 0;
+    crosshairDistHorSizeMain:p2 = 0.00749999983, 0.00749999983;
+    crosshairDistHorSizeAdditional:p2 = 0.00300000003, 0.00100000005;
+    crosshair_distances {
+      distance:p3 = 1, 0, 0;
+      distance:p3 = 1000, 10, 0.00999999978;
+      distance:p3 = 1500, 0, 0;
+      distance:p3 = 2000, 20, 0.00999999978;
+      distance:p3 = 2500, 0, 0;
+      distance:p3 = 3000, 30, 0.00999999978;
+      distance:p3 = 4000, 0, 0.00999999978;
+    }
+  }
+  bullet {
+    bulletType:t = "sap_hei_tank";
+    speed:r = 1400;
+    drawAdditionalLines:b = no;
+    drawDistanceCorrection:b = no;
+    distanceCorrectionPos:p2 = -0.0900000036, -0.0500000007;
+    distancePos:p2 = -0.101999998, 0;
+    textPos:p2 = 0.0199999996, 0;
+    textShift:r = 0;
+    textAlign:i = 2;
+    crosshairDistHorSizeMain:p2 = 0.00749999983, 0.00749999983;
+    crosshairDistHorSizeAdditional:p2 = 0.00499999989, 0.00300000003;
+    crosshair_distances {
+      distance:p3 = 1, 0, 0;
+      distance:p3 = 500, 5, -0.00999999978;
+      distance:p3 = 1000, 10, -0.00999999978;
+      distance:p3 = 1500, 15, -0.00999999978;
+      distance:p3 = 2000, 20, 0;
+      distance:p3 = 2500, 25, -0.00999999978;
+      distance:p3 = 3000, 30, 0;
+    }
+  }
+}
+crosshair_distances {
+}
+crosshair_hor_ranges {
+}
+drawLines {
+  line {
+    line:p4 = 1.89999998, 0, 11, 0;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -1.89999998, 0, -11, 0;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 5, 2, 10, 2;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -5, 2, -10, 2;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 5, -2, 10, -2;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -5, -2, -10, -2;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 20, 0, 25, 0;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -20, 0, -25, 0;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -30, -11, -30, -7;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -30, -11, -22, -11;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 30, 11, 30, 7;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 30, 11, 22, 11;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -30, 11, -30, 7;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -30, 11, -22, 11;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 30, -11, 30, -7;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 30, -11, 22, -11;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 0, 1.60000002, 0, 2.5;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 0, -1.60000002, 0, -2.5;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 0, 4.5, 0, 6.5;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 0, -4.5, 0, -6.5;
+    thousandth:b = yes;
+  }
+}
+drawCircles {
+  circle {
+    segment:p2 = 0, 360;
+    pos:p2 = 0, 0;
+    diameter:r = 3;
+    size:r = 2.5;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  circle {
+    segment:p2 = 0, 360;
+    pos:p2 = 0, 0;
+    diameter:r = 0.100000001;
+    size:r = 1.5;
+    move:b = no;
+    thousandth:b = yes;
+  }
+}
+drawTexts {
+  text {
+    text:t = "ADW KE";
+    align:i = 1;
+    pos:p2 = -16, 10.5;
+    move:b = yes;
+    thousandth:b = yes;
+    size:r = 0.600000024;
+    highlight:b = yes;
+  }
+  text {
+    text:t = "ADW-MP-HE";
+    align:i = 1;
+    pos:p2 = 16, 10.5;
+    move:b = yes;
+    thousandth:b = yes;
+    size:r = 0.600000024;
+    highlight:b = yes;
+  }
+}

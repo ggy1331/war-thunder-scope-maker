@@ -1,0 +1,198 @@
+// Extracted from local War Thunder config/tanksights.blk; game 2.59.0.86
+fontSizeMult:r = 0.469999999;
+lineSizeMult:r = 2;
+applyCorrectionToGun:b = yes;
+drawCentralLineVert:b = no;
+drawCentralLineHorz:b = no;
+drawAdditionalLines:b = no;
+drawDistanceCorrection:b = yes;
+crosshairDistHorSizeMain:p2 = 0.0149999997, 0.00999999978;
+crosshairDistHorSizeAdditional:p2 = 0.00499999989, 0.00200000009;
+distancePos:p2 = 0.300000012, 0;
+matchExpClass {
+  exp_heavy_tank:b = yes;
+  exp_tank:b = yes;
+  exp_tank_destroyer:b = yes;
+  exp_SPAA:b = yes;
+}
+crosshair_hor_ranges {
+}
+crosshair_distances {
+  distance:p3 = 400, 0, 0;
+  distance:p3 = 800, 8, 0;
+  distance:p3 = 1200, 0, 0;
+  distance:p3 = 1600, 16, 0;
+  distance:p3 = 2000, 0, 0;
+  distance:p3 = 2400, 24, 0;
+  distance:p3 = 2800, 0, 0;
+  distance:p3 = 3200, 32, 0;
+  distance:p3 = 3600, 0, 0;
+  distance:p3 = 4000, 40, 0;
+  distance:p3 = 4400, 0, 0;
+  distance:p3 = 4800, 48, 0;
+  distance:p3 = 5200, 0, 0;
+  distance:p3 = 5600, 56, 0;
+  distance:p3 = 6000, 0, 0;
+}
+drawLines {
+  line {
+    thousandth:b = yes;
+    line:p4 = -3.79999995, 0, -5, 0;
+  }
+  line {
+    thousandth:b = yes;
+    line:p4 = 5, 2, 10, 2;
+  }
+  line {
+    thousandth:b = yes;
+    line:p4 = 15, 0, 20, 0;
+  }
+  line {
+    thousandth:b = yes;
+    line:p4 = -5, 2, -10, 2;
+  }
+  line {
+    thousandth:b = yes;
+    line:p4 = -1.60000002, 0, -5, 0;
+  }
+  line {
+    thousandth:b = yes;
+    line:p4 = 0, 5, 0, 6.5;
+  }
+  line {
+    thousandth:b = yes;
+    line:p4 = 5, -2, 10, -2;
+  }
+  line {
+    thousandth:b = yes;
+    line:p4 = 1.60000002, 0, 5, 0;
+  }
+  line {
+    thousandth:b = yes;
+    line:p4 = -5, -2, -10, -2;
+  }
+  line {
+    thousandth:b = yes;
+    line:p4 = 0, -5, 0, -6.5;
+  }
+  line {
+    thousandth:b = yes;
+    line:p4 = -15, 0, -20, 0;
+  }
+}
+drawCircles {
+  circle {
+    thousandth:b = yes;
+    segment:p2 = 0, 360;
+    pos:p2 = 0, 0;
+    diameter:r = 3;
+    size:r = 2;
+  }
+}
+drawQuads {
+  quad {
+    thousandth:b = yes;
+    tl:p2 = 0, -0;
+    tr:p2 = -0, 0.150000006;
+    br:p2 = -0.0599999987, 0.140000001;
+    bl:p2 = -0.0599999987, 0.140000001;
+  }
+  quad {
+    thousandth:b = yes;
+    tl:p2 = 0, -0;
+    tr:p2 = -0.0599999987, 0.140000001;
+    br:p2 = -0.109999999, 0.100000001;
+    bl:p2 = -0.109999999, 0.100000001;
+  }
+  quad {
+    thousandth:b = yes;
+    tl:p2 = 0, -0;
+    tr:p2 = -0.109999999, 0.100000001;
+    br:p2 = -0.150000006, 0.0500000007;
+    bl:p2 = -0.150000006, 0.0500000007;
+  }
+  quad {
+    thousandth:b = yes;
+    tl:p2 = 0, -0;
+    tr:p2 = -0.150000006, 0.0500000007;
+    br:p2 = -0.150000006, -0.0199999996;
+    bl:p2 = -0.150000006, -0.0199999996;
+  }
+  quad {
+    thousandth:b = yes;
+    tl:p2 = 0, -0;
+    tr:p2 = -0.150000006, -0.0199999996;
+    br:p2 = -0.129999995, -0.0799999982;
+    bl:p2 = -0.129999995, -0.0799999982;
+  }
+  quad {
+    thousandth:b = yes;
+    tl:p2 = 0, -0;
+    tr:p2 = -0.129999995, -0.0799999982;
+    br:p2 = -0.0900000036, -0.119999997;
+    bl:p2 = -0.0900000036, -0.119999997;
+  }
+  quad {
+    thousandth:b = yes;
+    tl:p2 = 0, -0;
+    tr:p2 = -0.0900000036, -0.119999997;
+    br:p2 = -0.0299999993, -0.150000006;
+    bl:p2 = -0.0299999993, -0.150000006;
+  }
+  quad {
+    thousandth:b = yes;
+    tl:p2 = 0, -0;
+    tr:p2 = -0.0299999993, -0.150000006;
+    br:p2 = 0.0299999993, -0.150000006;
+    bl:p2 = 0.0299999993, -0.150000006;
+  }
+  quad {
+    thousandth:b = yes;
+    tl:p2 = 0, -0;
+    tr:p2 = 0.0299999993, -0.150000006;
+    br:p2 = 0.0900000036, -0.119999997;
+    bl:p2 = 0.0900000036, -0.119999997;
+  }
+  quad {
+    thousandth:b = yes;
+    tl:p2 = 0, -0;
+    tr:p2 = 0.0900000036, -0.119999997;
+    br:p2 = 0.129999995, -0.0799999982;
+    bl:p2 = 0.129999995, -0.0799999982;
+  }
+  quad {
+    thousandth:b = yes;
+    tl:p2 = 0, -0;
+    tr:p2 = 0.129999995, -0.0799999982;
+    br:p2 = 0.150000006, -0.0199999996;
+    bl:p2 = 0.150000006, -0.0199999996;
+  }
+  quad {
+    thousandth:b = yes;
+    tl:p2 = 0, -0;
+    tr:p2 = 0.150000006, -0.0199999996;
+    br:p2 = 0.150000006, 0.0500000007;
+    bl:p2 = 0.150000006, 0.0500000007;
+  }
+  quad {
+    thousandth:b = yes;
+    tl:p2 = 0, -0;
+    tr:p2 = 0.150000006, 0.0500000007;
+    br:p2 = 0.109999999, 0.100000001;
+    bl:p2 = 0.109999999, 0.100000001;
+  }
+  quad {
+    thousandth:b = yes;
+    tl:p2 = 0, -0;
+    tr:p2 = 0.109999999, 0.100000001;
+    br:p2 = 0.0599999987, 0.140000001;
+    bl:p2 = 0.0599999987, 0.140000001;
+  }
+  quad {
+    thousandth:b = yes;
+    tl:p2 = 0.0599999987, 0.140000001;
+    tr:p2 = 0, 0.150000006;
+    br:p2 = 0, -0;
+    bl:p2 = 0, -0;
+  }
+}

@@ -1,0 +1,262 @@
+// Extracted from local War Thunder config/tanksights.blk; game 2.59.0.86
+crosshairHorVertSize:p2 = 0, 0;
+rangefinderProgressBarColor1:c = 0, 255, 0, 64;
+rangefinderProgressBarColor2:c = 255, 255, 255, 64;
+rangefinderTextScale:r = 1.70000005;
+rangefinderVerticalOffset:r = -520.5;
+rangefinderHorizontalOffset:r = -31.2999992;
+fontSizeMult:r = 1;
+lineSizeMult:r = 1.14999998;
+drawCentralLineVert:b = no;
+drawCentralLineHorz:b = no;
+crosshairDistHorSizeMain:p2 = 0.0299999993, 0.0199999996;
+crosshairDistHorSizeAdditional:p2 = 0.00499999989, 0.00300000003;
+crosshairColor:c = 0, 0, 0, 255;
+crosshairLightColor:c = 255, 249, 125, 255;
+distanceCorrectionPos:p2 = -0.104999997, 0.135000005;
+drawDistanceCorrection:b = yes;
+crosshair_distances {
+  distance:p3 = 400, 4, 0;
+  distance:p3 = 600, 0, 0;
+  distance:p3 = 800, 8, 0;
+  distance:p3 = 1000, 0, 0;
+  distance:p3 = 1200, 12, 0;
+  distance:p3 = 1400, 0, 0;
+  distance:p3 = 1600, 16, 0;
+  distance:p3 = 1800, 0, 0;
+  distance:p3 = 2000, 20, 0;
+}
+ballistics {
+  bullet {
+    bulletType:t = "ap_t";
+    speed:r = 925;
+    drawAdditionalLines:b = no;
+    drawDistanceCorrection:b = no;
+    distanceCorrectionPos:p2 = -0.150000006, -0.150000006;
+    distancePos:p2 = 0.00400000019, 0;
+    textAlign:i = 0;
+    textPos:p2 = -0.0149999997, 0;
+    textShift:r = 0;
+    crosshairDistHorSizeMain:p2 = 0.00749999983, 0.00749999983;
+    crosshairDistHorSizeAdditional:p2 = 0.00499999989, 0.00499999989;
+    crosshair_distances {
+      distance {
+        textPos:p2 = 0, 0;
+        distance:p3 = 400, 4, 0;
+      }
+      distance {
+        textPos:p2 = 0, 0;
+        distance:p3 = 600, 6, 0;
+      }
+      distance {
+        textPos:p2 = 0, 0;
+        distance:p3 = 800, 8, 0;
+      }
+      distance {
+        textPos:p2 = 0, 0;
+        distance:p3 = 1000, 10, 0;
+      }
+      distance {
+        textPos:p2 = 0, 0;
+        distance:p3 = 1200, 12, 0;
+      }
+      distance {
+        textPos:p2 = 0, 0;
+        distance:p3 = 1400, 14, 0;
+      }
+      distance {
+        textPos:p2 = 0, 0;
+        distance:p3 = 1600, 16, 0;
+      }
+      distance {
+        textPos:p2 = 0, 0;
+        distance:p3 = 1800, 18, 0;
+      }
+      distance {
+        textPos:p2 = 0, 0;
+        distance:p3 = 2000, 20, 0;
+      }
+    }
+  }
+  bullet {
+    bulletType:t = "heat_grenade_tank";
+    speed:r = 502.920013;
+    drawAdditionalLines:b = no;
+    drawDistanceCorrection:b = no;
+    distanceCorrectionPos:p2 = -0.150000006, -0.150000006;
+    distancePos:p2 = -0.200000003, 0;
+    textAlign:i = 0;
+    textPos:p2 = 0.0199999996, 0;
+    textShift:r = 0;
+    crosshairDistHorSizeMain:p2 = 0.00749999983, 0.00749999983;
+    crosshairDistHorSizeAdditional:p2 = 0.00499999989, 0.00499999989;
+    crosshair_distances {
+      distance {
+        textPos:p2 = 0, 0;
+        distance:p3 = 200, 2, 0;
+      }
+      distance {
+        textPos:p2 = 0, 0;
+        distance:p3 = 400, 4, 0;
+      }
+      distance {
+        textPos:p2 = 0, 0;
+        distance:p3 = 600, 6, 0;
+      }
+      distance {
+        textPos:p2 = 0, 0;
+        distance:p3 = 800, 8, 0;
+      }
+      distance {
+        textPos:p2 = 0, 0;
+        distance:p3 = 1000, 10, 0;
+      }
+      distance {
+        textPos:p2 = 0, 0;
+        distance:p3 = 1200, 12, 0;
+      }
+    }
+  }
+}
+drawCircles {
+  circle {
+    segment:p2 = 10, 85;
+    pos:p2 = 0, 0;
+    diameter:r = 125;
+    size:r = 1.85000002;
+    thousandth:b = yes;
+    move:b = no;
+  }
+  circle {
+    segment:p2 = 95, 170;
+    pos:p2 = 0, 0;
+    diameter:r = 125;
+    size:r = 1.85000002;
+    thousandth:b = yes;
+    move:b = no;
+  }
+  circle {
+    segment:p2 = 190, 265;
+    pos:p2 = 0, 0;
+    diameter:r = 125;
+    size:r = 1.85000002;
+    thousandth:b = yes;
+    move:b = no;
+  }
+  circle {
+    segment:p2 = 275, 350;
+    pos:p2 = 0, 0;
+    diameter:r = 125;
+    size:r = 1.85000002;
+    thousandth:b = yes;
+    move:b = no;
+  }
+  circle {
+    segment:p2 = 0, 360;
+    pos:p2 = 0, 0;
+    diameter:r = 250;
+    size:r = 1.60000002;
+    thousandth:b = yes;
+    move:b = no;
+  }
+}
+drawLines {
+  line {
+    line:p4 = 125, 0, 5, 0;
+    thousandth:b = yes;
+    move:b = no;
+  }
+  line {
+    line:p4 = -5, 0, -125, 0;
+    thousandth:b = yes;
+    move:b = no;
+  }
+  line {
+    line:p4 = 0, -5, 0, -125;
+    thousandth:b = yes;
+    move:b = no;
+  }
+  line {
+    line:p4 = 0, 125, 0, 0;
+    thousandth:b = yes;
+    move:b = no;
+  }
+  line {
+    line:p4 = 7, 1, 7, -1;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 14, 2, 14, -2;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 21, 1, 21, -1;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 28, 2, 28, -2;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 35, 1, 35, -1;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 42, 2, 42, -2;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 49, 1, 49, -1;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 56, 2, 56, -2;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -7, 1, -7, -1;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -14, 2, -14, -2;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -21, 1, -21, -1;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -28, 2, -28, -2;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -35, 1, -35, -1;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -42, 2, -42, -2;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -49, 1, -49, -1;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -56, 2, -56, -2;
+    thousandth:b = yes;
+  }
+}
+matchExpClass {
+  md_bosvark_recoiless_rifle:b = yes;
+  md_bosvark_uparmor_recoiless_rifle:b = yes;
+}
+drawTexts {
+  text {
+    text:t = "HEAT";
+    pos:p2 = 82, -5;
+    move:b = no;
+    thousandth:b = yes;
+    size:r = 0.699999988;
+    highlight:b = yes;
+  }
+}

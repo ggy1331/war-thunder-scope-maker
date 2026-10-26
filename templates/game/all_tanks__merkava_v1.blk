@@ -1,0 +1,107 @@
+// Extracted from local War Thunder config/tanksights.blk; game 2.59.0.86
+crosshairHorVertSize:p2 = 0.0500000007, 0.0500000007;
+rangefinderTextScale:r = 0.600000024;
+rangefinderUseThousandth:b = no;
+rangefinderVerticalOffset:r = -0.100000001;
+rangefinderHorizontalOffset:r = -250;
+rangefinderProgressBarColor1:c = 0, 255, 0, 64;
+rangefinderProgressBarColor2:c = 255, 255, 255, 64;
+drawDistanceCorrection:b = yes;
+distanceCorrectionPos:p2 = -0.25, 0.150000006;
+crosshairLightColor:c = 69, 225, 69, 255;
+detectAllyTextScale:r = 0.699999988;
+detectAllyOffset:p2 = 4, 0.0500000007;
+fontSizeMult:r = 0.899999976;
+lineSizeMult:r = 1.5;
+textPos:p2 = 0.194999993, 0;
+drawCentralLineVert:b = no;
+drawCentralLineHorz:b = no;
+drawSightMask:b = yes;
+crosshairDistHorSizeMain:p2 = 0, 0;
+crosshairDistHorSizeAdditional:p2 = 0.000500000024, 0.000500000024;
+distanceCorrectionPos:p2 = -0.130999997, -0.0599999987;
+drawDistanceCorrection:b = no;
+matchExpClass {
+  exp_heavy_tank:b = yes;
+  exp_tank:b = yes;
+  exp_tank_destroyer:b = yes;
+  exp_SPAA:b = yes;
+}
+crosshair_distances {
+}
+crosshair_hor_ranges {
+}
+drawLines {
+  line {
+    line:p4 = 8, 4, 17, 4;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -8, 4, -17, 4;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 8, -4, 17, -4;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -8, -4, -17, -4;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 12, 0, 20, 0;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -12, 0, -20, 0;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 30, 0, 38, 0;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -30, 0, -38, 0;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 0, 4, 0, 7;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 0, -4, 0, -7;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 0, 10, 0, 14;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 0, -10, 0, -14;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 0, 19, 0, 24;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 0, -19, 0, -24;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 0, 0.5, 0, 0.800000012;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 0, -0.5, 0, -0.800000012;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 0.5, 0, 1, 0;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -0.5, 0, -1, 0;
+    thousandth:b = yes;
+  }
+}

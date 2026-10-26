@@ -1,0 +1,114 @@
+// Extracted from local War Thunder config/tanksights.blk; game 2.59.0.86
+drawAdditionalLines:b = no;
+drawDistanceCorrection:b = yes;
+crosshairDistHorSizeMain:p2 = 0.0149999997, 0.00999999978;
+crosshairDistHorSizeAdditional:p2 = 0.00499999989, 0.00200000009;
+distancePos:p2 = 0.300000012, 0;
+crosshairHorVertSize:p2 = 3, 2;
+lineSizeMult:r = 1.5;
+drawCentralLineVert:b = no;
+drawCentralLineHorz:b = no;
+thousandth:t = "nato";
+applyCorrectionToGun:b = yes;
+matchExpClass {
+  exp_heavy_tank:b = yes;
+  exp_tank:b = yes;
+  exp_tank_destroyer:b = yes;
+  exp_SPAA:b = yes;
+}
+crosshair_distances {
+}
+crosshair_hor_ranges {
+}
+drawLines {
+  line {
+    line:p4 = -0.25, 0, -1, 0;
+    thousandth:b = yes;
+    move:b = no;
+  }
+  line {
+    line:p4 = 0.25, 0, 1, 0;
+    thousandth:b = yes;
+    move:b = no;
+  }
+  line {
+    line:p4 = 0, 0.25, 0, 1;
+    thousandth:b = yes;
+    move:b = no;
+  }
+  line {
+    line:p4 = 0, -0.25, 0, -1;
+    thousandth:b = yes;
+    move:b = no;
+  }
+  line {
+    line:p4 = 2.5, 0, 5, 0;
+    thousandth:b = yes;
+    move:b = no;
+  }
+  line {
+    line:p4 = 7.44999981, 0, 7.55000019, 0;
+    thousandth:b = yes;
+    move:b = no;
+  }
+  line {
+    line:p4 = 10, 0, 15, 0;
+    thousandth:b = yes;
+    move:b = no;
+  }
+  line {
+    line:p4 = -2.5, 0, -5, 0;
+    thousandth:b = yes;
+    move:b = no;
+  }
+  line {
+    line:p4 = -7.44999981, 0, -7.55000019, 0;
+    thousandth:b = yes;
+    move:b = no;
+  }
+  line {
+    line:p4 = -10, 0, -15, 0;
+    thousandth:b = yes;
+    move:b = no;
+  }
+  line {
+    line:p4 = -2.5, -2, -7.5, -2;
+    thousandth:b = yes;
+    move:b = no;
+  }
+  line {
+    line:p4 = 2.5, 2, 7.5, 2;
+    thousandth:b = yes;
+    move:b = no;
+  }
+  line {
+    line:p4 = -2.5, 2, -7.5, 2;
+    thousandth:b = yes;
+    move:b = no;
+  }
+  line {
+    line:p4 = 2.5, -2, 7.5, -2;
+    thousandth:b = yes;
+    move:b = no;
+  }
+  line {
+    line:p4 = 0, 2, 0, 4;
+    thousandth:b = yes;
+    move:b = no;
+  }
+  line {
+    line:p4 = 0, 6, 0, 8;
+    thousandth:b = yes;
+    move:b = no;
+  }
+  line {
+    line:p4 = 0, -2, 0, -4;
+    thousandth:b = yes;
+    move:b = no;
+  }
+  line {
+    line:p4 = 0, -6, 0, -8;
+    thousandth:b = yes;
+    move:b = no;
+  }
+}

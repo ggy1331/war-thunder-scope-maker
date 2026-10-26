@@ -1,0 +1,236 @@
+// Extracted from local War Thunder config/tanksights.blk; game 2.59.0.86
+fontSizeMult:r = 0.469999999;
+lineSizeMult:r = 2;
+applyCorrectionToGun:b = yes;
+drawCentralLineVert:b = no;
+drawCentralLineHorz:b = no;
+drawAdditionalLines:b = no;
+drawDistanceCorrection:b = yes;
+crosshairDistHorSizeMain:p2 = 0.0149999997, 0.00999999978;
+crosshairDistHorSizeAdditional:p2 = 0.00499999989, 0.00200000009;
+distancePos:p2 = 0.300000012, 0;
+matchExpClass {
+  exp_heavy_tank:b = yes;
+  exp_tank:b = yes;
+  exp_tank_destroyer:b = yes;
+  exp_SPAA:b = yes;
+}
+crosshair_distances {
+}
+crosshair_hor_ranges {
+}
+drawLines {
+  line {
+    line:p4 = 20, -0.000300000014, 18.4869003, -0.300300002;
+    radialMoveSpeed:r = 0;
+    thousandth:b = yes;
+    move:b = no;
+    moveRadial:b = no;
+    radialCenter:p2 = 0, 0;
+  }
+  line {
+    line:p4 = 20, 0.000300000014, 18.4869003, 0.300300002;
+    radialMoveSpeed:r = 0;
+    thousandth:b = yes;
+    move:b = no;
+    moveRadial:b = no;
+    radialCenter:p2 = 0, 0;
+  }
+  line {
+    line:p4 = 28.8999996, 0.000300000014, 27.4232998, 0.300300002;
+    radialMoveSpeed:r = 0;
+    thousandth:b = yes;
+    move:b = no;
+    moveRadial:b = no;
+    radialCenter:p2 = 0, 0;
+  }
+  line {
+    line:p4 = 28.8999996, -0.000300000014, 27.4232998, -0.300300002;
+    radialMoveSpeed:r = 0;
+    thousandth:b = yes;
+    move:b = no;
+    moveRadial:b = no;
+    radialCenter:p2 = 0, 0;
+  }
+  line {
+    line:p4 = -20.8999996, -0.000300000014, -19.1644001, -0.300300002;
+    radialMoveSpeed:r = 0;
+    thousandth:b = yes;
+    move:b = no;
+    moveRadial:b = no;
+    radialCenter:p2 = 0, 0;
+  }
+  line {
+    line:p4 = -20.8999996, 0.000300000014, -19.1644001, 0.300300002;
+    radialMoveSpeed:r = 0;
+    thousandth:b = yes;
+    move:b = no;
+    moveRadial:b = no;
+    radialCenter:p2 = 0, 0;
+  }
+  line {
+    line:p4 = -31.8999996, 0.000300000014, -30.1380997, 0.300300002;
+    radialMoveSpeed:r = 0;
+    thousandth:b = yes;
+    move:b = no;
+    moveRadial:b = no;
+    radialCenter:p2 = 0, 0;
+  }
+  line {
+    line:p4 = -31.8999996, -0.000300000014, -30.1380997, -0.300300002;
+    radialMoveSpeed:r = 0;
+    thousandth:b = yes;
+    move:b = no;
+    moveRadial:b = no;
+    radialCenter:p2 = 0, 0;
+  }
+  line {
+    line:p4 = 0, -1, 0, 1;
+    move:b = no;
+    size:r = 5;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 1, 0, -1, 0;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 1.10000002, 0.100000001, 3, 0.100000001;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 1.10000002, -0.100000001, 3, -0.100000001;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -1.10000002, 0.100000001, -3, 0.100000001;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -1.10000002, -0.100000001, -3, -0.100000001;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -0.100000001, -1.10000002, -0.100000001, -3;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -0.100000001, 1.10000002, -0.100000001, 3;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 0.100000001, -1.10000002, 0.100000001, -3;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 0.100000001, 1.10000002, 0.100000001, 3;
+    move:b = no;
+    thousandth:b = yes;
+  }
+}
+drawCircles {
+  circle {
+    segment:p2 = 0, 360;
+    pos:p2 = 4, 0;
+    diameter:r = 0.150000006;
+    size:r = 2;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  circle {
+    segment:p2 = 0, 360;
+    pos:p2 = 6, 0;
+    diameter:r = 0.150000006;
+    size:r = 2;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  circle {
+    segment:p2 = 0, 360;
+    pos:p2 = 7, 0;
+    diameter:r = 0.150000006;
+    size:r = 2;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  circle {
+    segment:p2 = 0, 360;
+    pos:p2 = 8, 0;
+    diameter:r = 0.150000006;
+    size:r = 2;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  circle {
+    segment:p2 = 0, 360;
+    pos:p2 = 9, 0;
+    diameter:r = 0.150000006;
+    size:r = 2;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  circle {
+    segment:p2 = 0, 360;
+    pos:p2 = 10, 0;
+    diameter:r = 0.150000006;
+    size:r = 2;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  circle {
+    segment:p2 = 0, 360;
+    pos:p2 = -4, 0;
+    diameter:r = 0.150000006;
+    size:r = 2;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  circle {
+    segment:p2 = 0, 360;
+    pos:p2 = -6, 0;
+    diameter:r = 0.150000006;
+    size:r = 2;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  circle {
+    segment:p2 = 0, 360;
+    pos:p2 = -7, 0;
+    diameter:r = 0.150000006;
+    size:r = 2;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  circle {
+    segment:p2 = 0, 360;
+    pos:p2 = -8, 0;
+    diameter:r = 0.150000006;
+    size:r = 2;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  circle {
+    segment:p2 = 0, 360;
+    pos:p2 = -9, 0;
+    diameter:r = 0.150000006;
+    size:r = 2;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  circle {
+    segment:p2 = 0, 360;
+    pos:p2 = -10, 0;
+    diameter:r = 0.150000006;
+    size:r = 2;
+    move:b = no;
+    thousandth:b = yes;
+  }
+}

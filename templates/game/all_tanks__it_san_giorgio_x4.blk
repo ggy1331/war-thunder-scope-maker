@@ -1,0 +1,197 @@
+// Extracted from local War Thunder config/tanksights.blk; game 2.59.0.86
+crosshairHorVertSize:p2 = 0, 0;
+rangefinderProgressBarColor1:c = 0, 255, 0, 64;
+rangefinderProgressBarColor2:c = 255, 255, 255, 64;
+rangefinderTextScale:r = 0.699999988;
+rangefinderVerticalOffset:r = 15;
+rangefinderHorizontalOffset:r = 5;
+fontSizeMult:r = 1.25;
+lineSizeMult:r = 1.5;
+drawCentralLineVert:b = no;
+drawCentralLineHorz:b = no;
+crosshairDistHorSizeMain:p2 = 0.0299999993, 0.0199999996;
+crosshairDistHorSizeAdditional:p2 = 0.00499999989, 0.00300000003;
+distanceCorrectionPos:p2 = -0.200000003, -0.0500000007;
+drawDistanceCorrection:b = yes;
+matchExpClass {
+  it_p_26_40:b = yes;
+  it_p_40:b = yes;
+  it_semovente_m42_75_34:b = yes;
+}
+ballistics {
+  bullet {
+    bulletType:t = "apcbc_tank";
+    speed:r = 637;
+    drawAdditionalLines:b = no;
+    drawDistanceCorrection:b = yes;
+    distanceCorrectionPos:p2 = -0.150000006, -0.150000006;
+    distancePos:p2 = 0.0299999993, 0;
+    textAlign:i = 1;
+    textPos:p2 = -0.0120000001, 0;
+    textShift:r = 0;
+    crosshairDistHorSizeMain:p2 = 0.00749999983, 0.00749999983;
+    crosshairDistHorSizeAdditional:p2 = 0.00499999989, 0.00300000003;
+    crosshair_distances {
+      distance:p3 = 200, 0, 0;
+      distance:p3 = 400, 0, 0;
+      distance:p3 = 600, 0, 0;
+      distance:p3 = 800, 0, 0;
+      distance:p3 = 1000, 10, 0.00999999978;
+      distance:p3 = 1200, 0, 0;
+      distance:p3 = 1400, 0, 0;
+      distance:p3 = 1600, 0, 0;
+      distance:p3 = 1800, 0, 0;
+      distance:p3 = 2000, 20, 0.00999999978;
+    }
+  }
+  bullet {
+    bulletType:t = "heat_tank";
+    speed:r = 552;
+    drawAdditionalLines:b = no;
+    drawDistanceCorrection:b = yes;
+    distanceCorrectionPos:p2 = -0.0900000036, -0.0500000007;
+    distancePos:p2 = -0.0199999996, 0;
+    textPos:p2 = 0.0199999996, 0;
+    textShift:r = 0;
+    textAlign:i = 2;
+    crosshairDistHorSizeMain:p2 = 0.00749999983, 0.00749999983;
+    crosshairDistHorSizeAdditional:p2 = 0.00499999989, 0.00300000003;
+    crosshair_distances {
+      distance:p3 = 200, 0, 0;
+      distance:p3 = 300, 0, 0;
+      distance:p3 = 400, 0, 0;
+      distance:p3 = 500, 5, -0.00999999978;
+      distance:p3 = 600, 0, 0;
+      distance:p3 = 700, 0, 0;
+      distance:p3 = 800, 0, 0;
+      distance:p3 = 900, 0, 0;
+      distance:p3 = 1000, 10, -0.00999999978;
+      distance:p3 = 1100, 0, 0;
+      distance:p3 = 1200, 0, 0;
+      distance:p3 = 1300, 0, 0;
+      distance:p3 = 1400, 0, 0;
+      distance:p3 = 1500, 15, -0.00999999978;
+      distance:p3 = 1600, 0, 0;
+      distance:p3 = 1700, 0, 0;
+      distance:p3 = 1800, 0, 0;
+      distance:p3 = 1900, 0, 0;
+      distance:p3 = 2000, 20, 0;
+    }
+  }
+}
+crosshair_hor_ranges {
+  range:p2 = -60, 60;
+  range:p2 = -50, 0;
+  range:p2 = -40, 40;
+  range:p2 = -30, 0;
+  range:p2 = -20, 20;
+  range:p2 = 20, 20;
+  range:p2 = 30, 0;
+  range:p2 = 40, 40;
+  range:p2 = 50, 0;
+  range:p2 = 60, 60;
+}
+drawLines {
+  line {
+    line:p4 = 0, -1, 0, -0.0179999992;
+    move:b = no;
+  }
+  line {
+    line:p4 = 0, 0.0179999992, 0, 1;
+    move:b = no;
+  }
+  line {
+    line:p4 = -1, 0, -0.0199999996, 0;
+  }
+  line {
+    line:p4 = 0.0199999996, 0, 1, 0;
+  }
+  line {
+    line:p4 = -0.00200000009, 0, -0.00999999978, 0;
+    move:b = no;
+  }
+  line {
+    line:p4 = 0.00200000009, 0, 0.00999999978, 0;
+    move:b = no;
+  }
+  line {
+    line:p4 = 0, 0.00200000009, 0, 0.00999999978;
+    move:b = no;
+  }
+  line {
+    line:p4 = 0, -0.00200000009, 0, -0.00999999978;
+    move:b = no;
+  }
+  line {
+    line:p4 = -30, 30, -30, 40;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -40, 30, -40, 40;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -50, 30, -50, 40;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 30, 30, 30, 40;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 40, 30, 40, 40;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 50, 30, 50, 40;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -30, 0, -30, 10;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -40, 0, -40, 10;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -50, 0, -50, 10;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 30, 0, 30, 10;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 40, 0, 40, 10;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 50, 0, 50, 10;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 20, 0, 20, 3;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -20, 0, -20, 3;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 60, 0, 60, 5;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -60, 0, -60, 5;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 70, 0, 70, 5;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -70, 0, -70, 5;
+    thousandth:b = yes;
+  }
+}

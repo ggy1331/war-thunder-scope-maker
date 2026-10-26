@@ -1,0 +1,20 @@
+// Extracted from local War Thunder config/tanksights.blk; game 2.59.0.86
+crosshairHorVertSize:p2 = 0, 0;
+rangefinderProgressBarColor1:c = 0, 255, 0, 64;
+rangefinderProgressBarColor2:c = 255, 255, 255, 64;
+rangefinderTextScale:r = 0.699999988;
+rangefinderVerticalOffset:r = 550;
+rangefinderHorizontalOffset:r = 550;
+fontSizeMult:r = 1.25;
+lineSizeMult:r = 1.20000005;
+drawCentralLineVert:b = no;
+drawCentralLineHorz:b = no;
+crosshairDistHorSizeMain:p2 = 0.0299999993, 0.0199999996;
+crosshairDistHorSizeAdditional:p2 = 0.00499999989, 0.00300000003;
+distanceCorrectionPos:p2 = -0.200000003, -0.0500000007;
+drawDistanceCorrection:b = yes;
+matchExpClass {
+  exp_helicopter:b = yes;
+}
+crosshair_hor_ranges {
+}

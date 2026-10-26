@@ -1,0 +1,23 @@
+// War Thunder Scope Maker — ring starter
+matchExpClass {
+  exp_tank:b = yes
+  exp_heavy_tank:b = yes
+  exp_tank_destroyer:b = yes
+  exp_SPAA:b = yes
+}
+drawCentralLineVert:b = no
+drawCentralLineHorz:b = no
+drawDistanceCorrection:b = no
+crosshairColor:c = 92, 245, 156, 255
+lineSizeMult:r = 1.5
+crosshair_distances {}
+crosshair_hor_ranges {}
+drawLines {
+  line { line:p4 = -0.55, 0, -0.1, 0; move:b = no; }
+  line { line:p4 = 0.1, 0, 0.55, 0; move:b = no; }
+  line { line:p4 = 0, -0.55, 0, -0.1; move:b = no; }
+  line { line:p4 = 0, 0.1, 0, 0.55; move:b = no; }
+}
+drawCircles {
+  circle { pos:p2 = 0, 0; diameter:r = 0.2; segment:p2 = 0, 360; size:r = 1; thousandth:b = no; move:b = no; }
+}

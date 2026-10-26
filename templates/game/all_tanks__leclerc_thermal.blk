@@ -1,0 +1,89 @@
+// Extracted from local War Thunder config/tanksights.blk; game 2.59.0.86
+crosshairHorVertSize:p2 = 3, 2;
+rangefinderProgressBarColor1:c = 0, 255, 0, 64;
+rangefinderProgressBarColor2:c = 255, 255, 255, 64;
+rangefinderTextScale:r = 0;
+rangefinderUseThousandth:b = yes;
+rangefinderVerticalOffset:r = -16.2999992;
+rangefinderHorizontalOffset:r = -85;
+drawCentralLineVert:b = no;
+drawCentralLineHorz:b = no;
+fontSizeMult:r = 0.850000024;
+lineSizeMult:r = 0.850000024;
+drawSightMask:b = yes;
+crosshairDistHorSizeMain:p2 = 0.0299999993, 0.0199999996;
+crosshairDistHorSizeAdditional:p2 = 0, 0;
+distanceCorrectionPos:p2 = -0.129999995, 0.101999998;
+drawDistanceCorrection:b = yes;
+crosshairColor:c = 255, 255, 255, 232;
+crosshairLightColor:c = 0, 0, 0, 232;
+matchExpClass {
+  exp_heavy_tank:b = yes;
+  exp_tank:b = yes;
+  exp_tank_destroyer:b = yes;
+  exp_SPAA:b = yes;
+}
+crosshair_distances {
+}
+crosshair_hor_ranges {
+}
+drawLines {
+  line {
+    line:p4 = 0, 1, 0, 2;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 0, 3, 0, 4;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 0, -1, 0, -2;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 0, -3, 0, -4;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 2, 0, 4, 0;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = 6, 0, 8, 0;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -2, 0, -4, 0;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  line {
+    line:p4 = -6, 0, -8, 0;
+    move:b = no;
+    thousandth:b = yes;
+  }
+}
+drawCircles {
+  circle {
+    segment:p2 = 0, 360;
+    pos:p2 = 0, 0;
+    diameter:r = 1;
+    size:r = 1.10000002;
+    move:b = no;
+    thousandth:b = yes;
+  }
+  circle {
+    segment:p2 = 0, 360;
+    pos:p2 = 0, 0;
+    diameter:r = 0.100000001;
+    size:r = 1;
+    move:b = no;
+    thousandth:b = yes;
+  }
+}
