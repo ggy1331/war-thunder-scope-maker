@@ -1,4 +1,4 @@
-param([string]$OutputDirectory = 'dist-0.7.0')
+param([string]$OutputDirectory = 'dist-0.8.1')
 $ErrorActionPreference = 'Stop'
 $root = $PSScriptRoot
 $compiler = Join-Path $env:WINDIR 'Microsoft.NET\Framework64\v4.0.30319\csc.exe'

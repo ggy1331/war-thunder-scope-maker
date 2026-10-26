@@ -9,9 +9,17 @@
 Windows editor for custom War Thunder tank sights. Draw reticles, convert artwork into sight geometry, use templates and preview backgrounds, and export BLK files. Russian and English UI. Download the portable ZIP from **Releases**, extract all files, and run `War Thunder Scope Maker.exe`.
 
 
-**0.7.0 — pre-alpha · Windows · русский / English**
+**0.8.1 — pre-alpha · Windows · русский / English**
 
-Запуск: `dist-0.7.0/War Thunder Scope Maker.exe` (в ZIP — прямо из распакованной папки). Установка и подключение к интернету не нужны. Требуется Windows с .NET Framework 4.x Это экспериментальная версия, возможны ошибки.
+Запуск: `dist-0.8.1/War Thunder Scope Maker.exe` (в ZIP — прямо из распакованной папки). Установка и подключение к интернету не нужны. Требуется Windows с .NET Framework 4.x Это экспериментальная версия, возможны ошибки.
+
+## Что изменилось в 0.8.1
+
+- Видимые полосы прокрутки снизу и справа; пробел + мышь или средняя кнопка перемещают сцену. Shift + колесо — горизонтально, Alt + колесо — вертикально, Home — в центр.
+- Новые проекты и BLK получают последовательные имена scope_1, scope_2 и далее.
+- Установщик WT-Scope-Maker-Setup-0.8.1.exe устанавливает и обновляет программу без прав администратора, сохраняя настройки и проекты. Перед обновлением закройте приложение. ZIP остаётся portable-вариантом.
+- Пройдено 83 проверки приложения и проверки установки, обновления и сохранности пользовательских файлов.
+- Подробности: [RELEASE-0.8.1.md](docs/RELEASE-0.8.1.md).
 
 ## Что изменилось в 0.7
 
@@ -117,9 +125,9 @@ Esc отменяет текущий черновик и возвращает и�
 
 ```powershell
 .\build.ps1
-& '.\dist-0.7.0\War Thunder Scope Maker.exe' --self-test "$PWD\test-results.txt"
-& '.\dist-0.7.0\War Thunder Scope Maker.exe' --screenshot "$PWD\preview.png"
-& '.\dist-0.7.0\War Thunder Scope Maker.exe' --import-screenshot "$PWD\image-import-preview.png"
+& '.\dist-0.8.1\War Thunder Scope Maker.exe' --self-test "$PWD\test-results.txt"
+& '.\dist-0.8.1\War Thunder Scope Maker.exe' --screenshot "$PWD\preview.png"
+& '.\dist-0.8.1\War Thunder Scope Maker.exe' --import-screenshot "$PWD\image-import-preview.png"
 ```
 
 Сборка использует системный компилятор .NET Framework, без NuGet. Программа не является продуктом Gaijin и не связана с разработчиком игры.
