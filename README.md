@@ -4,7 +4,7 @@
 
 Редактор пользовательских танковых прицелов War Thunder для Windows: рисование сетки, импорт рисунков, игровые шаблоны и фоны, экспорт BLK.
 
-**Готовая программа:** откройте раздел **Releases**, скачайте ZIP последней версии и распакуйте его целиком. Для запуска используйте `War Thunder Scope Maker.exe` из распакованной папки.
+**Готовая программа:** откройте раздел **Releases**, скачайте ZIP или EXE последней версии и распакуйте его целиком. Для запуска используйте `War Thunder Scope Maker.exe` из распакованной папки.
 
 Windows editor for custom War Thunder tank sights. Draw reticles, convert artwork into sight geometry, use templates and preview backgrounds, and export BLK files. Russian and English UI. Download the portable ZIP from **Releases**, extract all files, and run `War Thunder Scope Maker.exe`.
 
